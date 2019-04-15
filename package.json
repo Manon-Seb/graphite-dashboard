@@ -56,6 +56,7 @@
   },
   "dependencies": {
     "@hyperapp/logger": "^0.4.1",
+    "casual": "^1.6.0",
     "chai-as-promised": "^7.1.1",
     "es6-promise": "^4.2.4",
     "hyperapp": "^1.1.2",
