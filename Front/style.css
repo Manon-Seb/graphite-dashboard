@@ -1,0 +1,178 @@
+body{
+  font-family: 'Calibri', sans-serif;
+  background-color: #F2F2F2;
+  color: #696969;
+  position: relative;
+}
+
+h1{
+  text-align: center;
+}
+body, .content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+header{
+  width: 10%;
+  background-color: #dc7d2f;
+  color: #fff;
+  position: fixed;
+  top:0;
+  z-index: 10;
+}
+header ul{
+  padding-left: 15px;
+}
+header li{
+  list-style-type: none;
+  margin-bottom: 90px;
+}
+
+header, .right{
+  bottom: 0;
+}
+
+.content{
+  position: relative;
+  width: 90%;
+  margin-left: 10%;
+}
+.content h1{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.user_bar{
+  border-bottom: 2px solid #E2E2E2;
+  background-color: #fff;
+  text-align: right;
+  width: 100%;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.user_bar p, .user_bar img{
+  display: inline-block;
+  vertical-align: middle;
+}
+.user_bar img{
+  max-width: 100%;
+  border-radius: 50%;
+  width: 4%;
+  margin-right: 20px;
+}
+.user_bar p{
+  position: relative;
+  width: 85%;
+  margin: 0 30px 0 0;
+  line-height: 60px;
+}
+.user_bar p::after{
+  content: " ";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: 45%;
+  right: -2%;
+  border: medium solid #1CD0FD;
+  border-width: 8px 8px 0px 8px;
+  border-color: #696969 transparent transparent transparent;
+}
+
+.category{
+  border: 1px solid #E2E2E2;
+  background-color: #fff;
+}
+.category h2{
+  text-align: center;
+  border-bottom: 2px solid #E2E2E2;
+  padding-bottom: 10px;
+  margin: 10px 0 0 0;
+}
+.stats_members img, .calendar img{
+  margin: 0 20px;
+  width: 95%;
+}
+
+.left{
+  margin-left: 2.5%;
+  width: 60%;
+}
+.right{
+  position: fixed;
+  width: 35%;
+  top: 140px;
+  right: 2.5%;
+}
+
+.team .profiles{
+  padding: 20px;
+  text-align: center;
+}
+.team .profiles div{
+  vertical-align: top;
+  background-color: #F2F2F2;
+  padding: 15px 10px;
+  display: inline-block;
+  width: 29.5%;
+  text-align: justify;
+}
+.team .profiles div h3{
+  margin: 5px 0;
+}
+.team .profiles div img{
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin-right: 10px;
+  width: 20%;
+}
+.team div img, .team div h3{
+  display: inline-block;
+  vertical-align: middle;
+}
+input[type=button]{
+  display: block;
+  margin: 0 auto;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  background-color: #dc7d2f;
+  color: #fff;
+  box-shadow: none;
+}
+input[type=button]:hover{
+  cursor: pointer;
+  background-color: #fff;
+  color: #DC7D2F;
+  border: 1px solid #DC7D2F;
+}
+
+.team, .stats_members{
+  margin-bottom: 10px;
+}
+.calendar{
+  margin-bottom: 10px;
+}
+.team div p, h2{
+  margin-top: 5px;
+}
+
+.news{
+  width: auto;
+  height: 50%;
+  padding: 0;
+  overflow: scroll;
+}
+.news div{
+  padding: 10px;
+}
+.news h3{
+  margin: 10px 0;
+}
