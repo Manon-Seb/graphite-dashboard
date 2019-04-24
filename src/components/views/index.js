@@ -1,24 +1,21 @@
-
+import { h } from 'hyperapp'
+import taskslist from '../taskslist'
 // METHOD 1
-const urls = [
-  'http://localhost:8080/members'
-]
 
 // the whole promise chain fails with an error here
 // change that:
 // make errors appear as members of the results array
 
 // Fix it:
-
+/*
 Promise.all(urls.map(url => fetch(url)))
   .then(responses => Promise.all(responses.map(r => r.json())))
-
 // Demo output (no need to change):
-/* .then(results => {
+ .then(results => {
     console.log(results[0][0].name)
   }) */
 // METHOD 2
-
+/*
 const getPromise = (url) => {
   return fetch(url)
 }
@@ -45,7 +42,7 @@ const changeData = (url, object) => {
     method: 'PUT',
     body: JSON.stringify(object)
   })
-}
+} */
 
 /*
 addData('http://localhost:8080/news', {
@@ -59,10 +56,19 @@ changeData('http://localhost:8080/news/15', {
 })
 
 */
-
-export default(state, action) => {
-  if (state.update[0] === false) {
-    action.updateState()
+const display = (state, actions) => {
+  if (state !== undefined) {
+    return (taskslist(state, actions))
   }
-  console.log(state)
+  return <p> Error !</p>
+}
+export default(state, actions) => {
+  if (state.update[0] === false) {
+    actions.updateState()
+  }
+  return (
+    <main>
+      {display(state.tasks, actions)}
+    </main>
+  )
 }

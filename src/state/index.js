@@ -1,3 +1,6 @@
 export default {
-  update: [false]
+  update: [false],
+  members: [],
+  events: [],
+  news: []
 }
