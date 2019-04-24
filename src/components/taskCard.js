@@ -32,8 +32,15 @@ const displayDecription = (bool, description) => {
 export default (props, actions) => {
   return (
     <div>
-      <div className={'task__card ' + 'task__card' + '__' + props.category} onmouseover={() => console.log('Hover')}>
-        {completed(props.isDone)}
+      <div className={'task__card ' + 'task__card' + '__' + props.category}>
+        <div className='container__horizontal'>
+          {completed(props.isDone)}
+          <div className='container__horizontal task__option'>
+            <img className='task__option__img' src='../asset/img/waste-bin.png' alt='delete task' onclick={() => actions.deleteTask(props.id)}/>
+            <img className='task__option__img' src='../asset/img/pencil.png' alt='modify task' onclick={() => console.log('modify')}/>
+            <img className='task__option__img' src='../asset/img/more.png' alt='more' onclick={() => console.log('more')}/>
+          </div>
+        </div>
         <div className='container__horizontal'>
           <h3>{props.tasks}</h3>
           <button onclick={() => actions.openDescription(props.id)}>
@@ -43,7 +50,7 @@ export default (props, actions) => {
         {displayDecription(props.displayDecription, props.description)}
         <div className='width--100 content--center'>
           <div className='container__horizontal'>
-            <img src='../asset/img/passage-of-time.png' alt='Due date'/>
+            <img className='task__card__date__img' src='../asset/img/passage-of-time.png' alt='Due date'/>
             <p className='task__card__date'>{props.dueDate}</p>
           </div>
         </div>

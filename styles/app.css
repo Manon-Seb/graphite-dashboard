@@ -119,7 +119,10 @@ p {
 .task__card img {
    width: 3vh;
    height: 3vh;
-   margin: auto;
+}
+
+.task__card__date__img {
+  margin: auto;
 }
 
 .task__card__state--purple {
@@ -136,6 +139,17 @@ p {
 
 .task__card__state__text {
   margin: 5% 5% 5% 0;
+}
+
+.task__option {
+  margin-left: auto;
+}
+
+.task__option__img {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  margin-right: 1vh;
+  margin-left: 1vh;
 }
 
 .container__horizontal{
