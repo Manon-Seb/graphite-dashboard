@@ -5,387 +5,353 @@
   "team": [
     {
       "id": 0,
-      "name": "Granville",
-      "job": "eaque",
-      "subject": "rerum",
-      "age": 24,
-      "description": "cum illo sint at",
-      "drawingTechnique": "nostrum",
-      "publicationNb": 4
+      "name": "Augustine",
+      "job": "cupiditate",
+      "subject": "odit",
+      "age": 23,
+      "description": "a tempore in",
+      "drawingTechnique": "distinctio",
+      "publicationNb": 5
     },
     {
       "id": 1,
-      "name": "Constance",
-      "job": "magnam",
-      "subject": "velit",
+      "name": "Candelario",
+      "job": "enim",
+      "subject": "alias",
       "age": 23,
-      "description": "vel perferendis",
-      "drawingTechnique": "dolor",
-      "publicationNb": 1
+      "description": "fugit error",
+      "drawingTechnique": "voluptatem",
+      "publicationNb": 2
     },
     {
       "id": 2,
-      "name": "Cristian",
-      "job": "et",
-      "subject": "provident",
-      "age": 25,
-      "description": "sit tenetur",
-      "drawingTechnique": "sapiente",
-      "publicationNb": 5
+      "name": "Rosendo",
+      "job": "quidem",
+      "subject": "ex",
+      "age": 21,
+      "description": "mollitia similique",
+      "drawingTechnique": "eos",
+      "publicationNb": 4
     }
   ],
   "members": [
     {
       "id": 0,
-      "name": "Dante",
-      "job": "nisi",
-      "subject": "aut",
-      "age": 23,
-      "description": "ut",
-      "drawingTechnique": "consequatur",
-      "publicationNb": 2
-    },
-    {
-      "id": 1,
-      "name": "Mikel",
-      "job": "voluptas",
-      "subject": "ducimus",
-      "age": 25,
-      "description": "commodi aut laboriosam consequatur quisquam",
+      "name": "Luther",
+      "job": "eos",
+      "subject": "aperiam",
+      "age": 20,
+      "description": "adipisci ipsum temporibus sint",
       "drawingTechnique": "dolorem",
-      "publicationNb": 2
-    },
-    {
-      "id": 2,
-      "name": "Brigitte",
-      "job": "nesciunt",
-      "subject": "laboriosam",
-      "age": 23,
-      "description": "id sapiente non et corporis",
-      "drawingTechnique": "magni",
-      "publicationNb": 4
-    },
-    {
-      "id": 3,
-      "name": "Malachi",
-      "job": "ea",
-      "subject": "perspiciatis",
-      "age": 23,
-      "description": "consequatur numquam sed quae nostrum",
-      "drawingTechnique": "sint",
       "publicationNb": 1
     },
     {
-      "id": 4,
-      "name": "Emile",
-      "job": "rerum",
-      "subject": "est",
+      "id": 1,
+      "name": "Xavier",
+      "job": "perferendis",
+      "subject": "vel",
+      "age": 24,
+      "description": "et aspernatur aut",
+      "drawingTechnique": "eveniet",
+      "publicationNb": 1
+    },
+    {
+      "id": 2,
+      "name": "Eloise",
+      "job": "harum",
+      "subject": "ullam",
+      "age": 24,
+      "description": "iste",
+      "drawingTechnique": "cupiditate",
+      "publicationNb": 1
+    },
+    {
+      "id": 3,
+      "name": "Orland",
+      "job": "doloribus",
+      "subject": "voluptatibus",
       "age": 21,
-      "description": "tenetur quo quia laborum",
-      "drawingTechnique": "facilis",
-      "publicationNb": 5
+      "description": "consequuntur aut nobis",
+      "drawingTechnique": "deserunt",
+      "publicationNb": 4
+    },
+    {
+      "id": 4,
+      "name": "Roderick",
+      "job": "minus",
+      "subject": "maiores",
+      "age": 23,
+      "description": "minus sunt accusamus quis corrupti molestiae",
+      "drawingTechnique": "veritatis",
+      "publicationNb": 1
     },
     {
       "id": 5,
-      "name": "Edwin",
-      "job": "aperiam",
-      "subject": "maxime",
+      "name": "Donnie",
+      "job": "omnis",
+      "subject": "sed",
       "age": 23,
-      "description": "quibusdam nobis incidunt",
-      "drawingTechnique": "laborum",
-      "publicationNb": 3
+      "description": "architecto",
+      "drawingTechnique": "maxime",
+      "publicationNb": 4
     },
     {
       "id": 6,
-      "name": "Torey",
-      "job": "nemo",
-      "subject": "non",
-      "age": 21,
-      "description": "sunt",
-      "drawingTechnique": "fuga",
-      "publicationNb": 2
+      "name": "Demetris",
+      "job": "ipsam",
+      "subject": "ipsa",
+      "age": 22,
+      "description": "dolore rerum nostrum dolorem illo",
+      "drawingTechnique": "eveniet",
+      "publicationNb": 4
     },
     {
       "id": 7,
-      "name": "Jack",
-      "job": "libero",
-      "subject": "accusantium",
-      "age": 20,
-      "description": "in et nostrum",
-      "drawingTechnique": "dolorem",
-      "publicationNb": 2
+      "name": "Sandra",
+      "job": "praesentium",
+      "subject": "sunt",
+      "age": 23,
+      "description": "officia molestiae",
+      "drawingTechnique": "sed",
+      "publicationNb": 3
     },
     {
       "id": 8,
-      "name": "Marshall",
-      "job": "aut",
-      "subject": "eaque",
-      "age": 20,
-      "description": "ipsa asperiores molestias",
-      "drawingTechnique": "magni",
+      "name": "Forest",
+      "job": "molestias",
+      "subject": "ipsa",
+      "age": 24,
+      "description": "sed omnis",
+      "drawingTechnique": "placeat",
       "publicationNb": 3
     },
     {
       "id": 9,
-      "name": "Renee",
-      "job": "nostrum",
-      "subject": "deserunt",
+      "name": "Flavie",
+      "job": "doloribus",
+      "subject": "corporis",
       "age": 21,
-      "description": "et placeat mollitia",
-      "drawingTechnique": "maiores",
-      "publicationNb": 5
+      "description": "incidunt molestiae ut qui earum",
+      "drawingTechnique": "aut",
+      "publicationNb": 2
     },
     {
       "id": 10,
-      "name": "Charlie",
-      "job": "dignissimos",
-      "subject": "sed",
-      "age": 23,
-      "description": "doloribus labore molestiae",
-      "drawingTechnique": "quis",
-      "publicationNb": 1
+      "name": "Hilbert",
+      "job": "ducimus",
+      "subject": "facilis",
+      "age": 21,
+      "description": "occaecati quisquam",
+      "drawingTechnique": "sed",
+      "publicationNb": 3
     },
     {
       "id": 11,
-      "name": "Ansel",
-      "job": "aut",
-      "subject": "occaecati",
-      "age": 21,
-      "description": "velit quaerat sit",
-      "drawingTechnique": "qui",
-      "publicationNb": 4
+      "name": "Retta",
+      "job": "cumque",
+      "subject": "architecto",
+      "age": 23,
+      "description": "velit qui voluptates sunt adipisci sint",
+      "drawingTechnique": "ut",
+      "publicationNb": 3
     },
     {
       "id": 12,
-      "name": "Celestino",
-      "job": "aperiam",
-      "subject": "aut",
-      "age": 25,
-      "description": "est possimus temporibus laudantium",
-      "drawingTechnique": "quae",
-      "publicationNb": 4
+      "name": "Joannie",
+      "job": "in",
+      "subject": "eaque",
+      "age": 23,
+      "description": "ut distinctio rerum",
+      "drawingTechnique": "sunt",
+      "publicationNb": 3
     },
     {
       "id": 13,
-      "name": "Ulises",
-      "job": "numquam",
-      "subject": "molestias",
+      "name": "Edward",
+      "job": "sed",
+      "subject": "sapiente",
       "age": 21,
-      "description": "optio eos atque cupiditate",
-      "drawingTechnique": "soluta",
-      "publicationNb": 4
+      "description": "deserunt ipsam qui",
+      "drawingTechnique": "est",
+      "publicationNb": 1
     },
     {
       "id": 14,
-      "name": "Deondre",
-      "job": "labore",
-      "subject": "sed",
-      "age": 21,
-      "description": "ipsam quae nostrum nisi",
-      "drawingTechnique": "velit",
+      "name": "Rosalia",
+      "job": "maiores",
+      "subject": "perspiciatis",
+      "age": 20,
+      "description": "aut et non voluptatibus qui perferendis",
+      "drawingTechnique": "in",
       "publicationNb": 4
     },
     {
       "id": 15,
-      "name": "Lelah",
-      "job": "quod",
-      "subject": "doloremque",
-      "age": 21,
-      "description": "provident adipisci",
-      "drawingTechnique": "consequatur",
-      "publicationNb": 1
+      "name": "Dudley",
+      "job": "et",
+      "subject": "et",
+      "age": 22,
+      "description": "eum est molestiae odio accusamus",
+      "drawingTechnique": "facilis",
+      "publicationNb": 4
     },
     {
       "id": 16,
-      "name": "Allene",
+      "name": "Bennett",
       "job": "maxime",
-      "subject": "dolor",
-      "age": 25,
-      "description": "mollitia quasi dolor rerum",
-      "drawingTechnique": "consequuntur",
+      "subject": "eos",
+      "age": 23,
+      "description": "molestiae",
+      "drawingTechnique": "explicabo",
       "publicationNb": 4
     },
     {
       "id": 17,
-      "name": "Marilou",
-      "job": "sit",
-      "subject": "ratione",
-      "age": 24,
-      "description": "sint cum aut",
-      "drawingTechnique": "quia",
-      "publicationNb": 4
+      "name": "Mercedes",
+      "job": "in",
+      "subject": "corporis",
+      "age": 23,
+      "description": "nisi neque non architecto odio",
+      "drawingTechnique": "et",
+      "publicationNb": 3
     },
     {
       "id": 18,
-      "name": "Raegan",
-      "job": "consequatur",
-      "subject": "porro",
-      "age": 23,
-      "description": "et",
-      "drawingTechnique": "enim",
+      "name": "Eldora",
+      "job": "mollitia",
+      "subject": "vel",
+      "age": 22,
+      "description": "consequatur quod",
+      "drawingTechnique": "est",
       "publicationNb": 3
     },
     {
       "id": 19,
-      "name": "Gwen",
-      "job": "saepe",
-      "subject": "et",
-      "age": 21,
-      "description": "quasi nisi vel",
-      "drawingTechnique": "ratione",
-      "publicationNb": 2
+      "name": "Thalia",
+      "job": "non",
+      "subject": "reiciendis",
+      "age": 24,
+      "description": "distinctio molestias",
+      "drawingTechnique": "dolor",
+      "publicationNb": 3
     },
     {
       "id": 20,
-      "name": "Deontae",
-      "job": "autem",
-      "subject": "veniam",
-      "age": 24,
-      "description": "amet",
-      "drawingTechnique": "praesentium",
-      "publicationNb": 1
+      "name": "Jamil",
+      "job": "et",
+      "subject": "dolores",
+      "age": 23,
+      "description": "iure consectetur voluptatem sequi dolor magni",
+      "drawingTechnique": "laborum",
+      "publicationNb": 4
     }
   ],
   "events": [
     {
       "id": 0,
-      "name": "accusamus officia modi explicabo aperiam consequatur repellat est",
-      "description": "neque cupiditate aut impedit autem voluptatem ut quos ut impedit enim quia est nobis ab qui sit"
+      "name": "laudantium consequatur non impedit commodi facere sint",
+      "description": "consequatur consequatur enim earum quod autem non porro molestiae eos ea nihil ad earum"
     },
     {
       "id": 1,
-      "name": "et ratione sed aperiam esse unde",
-      "description": "consectetur ea harum id sed provident maxime iusto sed quae aliquid qui commodi nihil saepe et"
+      "name": "voluptatem dignissimos et voluptate laborum",
+      "description": "beatae perspiciatis in ipsa in voluptas quis pariatur perspiciatis doloribus ratione"
     },
     {
       "id": 2,
-      "name": "quisquam nostrum aut laboriosam quia ut similique",
-      "description": "enim officia doloremque repellendus vitae non voluptas sit quo ea corporis explicabo iste dolores id nobis voluptas"
+      "name": "ut rerum officiis unde aperiam eveniet ut eaque",
+      "description": "et modi qui quis sed inventore dignissimos totam nobis perferendis rerum"
     },
     {
       "id": 3,
-      "name": "nihil minus inventore eum",
-      "description": "minus commodi omnis et eum magnam rerum aut et exercitationem sed ut non mollitia consequatur iusto numquam nobis"
+      "name": "error nam omnis est adipisci",
+      "description": "accusamus in aut nemo ullam ipsa omnis quis ut laborum optio accusamus nostrum adipisci itaque nulla explicabo et"
     },
     {
       "id": 4,
-      "name": "aut asperiores sed magni rerum",
-      "description": "magni delectus quos non molestiae saepe quis aperiam quia aspernatur"
+      "name": "similique ut et ad neque voluptatum vitae suscipit",
+      "description": "aut molestiae quis assumenda numquam qui omnis commodi corrupti consequatur commodi quis quis natus labore veritatis explicabo voluptatem hic"
     },
     {
       "id": 5,
-      "name": "quo mollitia ea consequatur laboriosam",
-      "description": "tenetur aut nihil exercitationem temporibus et corporis vel voluptates veniam magnam unde est deleniti"
+      "name": "quo qui et earum repellendus illo",
+      "description": "quod accusamus est dolor est ratione repellat ut aut molestiae labore dolores expedita minus autem est ut adipisci modi"
     }
   ],
-  "tasks": [
-    {
-      "id": 6,
-      "idMember": 10,
-      "tasks": "consectetur doloremque deleniti et eaque",
-      "dueDate": "1979-01-12",
-      "category": "fanzine",
-      "description": "est dolorem dicta et libero possimus consequuntur natus molestias qui placeat voluptatem culpa odit delectus provident accusamus voluptate ut",
-      "displayDecription": false,
-      "isDone": true
-    },
-    {
-      "id": 7,
-      "idMember": 11,
-      "tasks": "quae aut quia aspernatur consequatur repellendus provident",
-      "dueDate": "1980-09-26",
-      "category": "reunion",
-      "description": "qui dignissimos ea occaecati ea non distinctio corrupti saepe eos fugiat consectetur velit officiis at eum doloribus consequatur autem et quis",
-      "displayDecription": false,
-      "isDone": false
-    },
-    {
-      "id": 8,
-      "idMember": 6,
-      "tasks": "tempora voluptatibus dolor ratione aliquam suscipit natus",
-      "dueDate": "2004-05-14",
-      "category": "reunion",
-      "description": "autem fugit sequi voluptate esse veniam voluptatum quia perferendis et accusantium tempora minima ipsam nulla nulla aut sit ullam fuga ea est vero",
-      "displayDecription": false,
-      "isDone": true
-    },
-    {
-      "id": 10,
-      "idMember": 7,
-      "tasks": "natus placeat aliquid nihil nihil",
-      "dueDate": "1974-03-25",
-      "category": "fanzine",
-      "description": "alias impedit quisquam eum consectetur quod aliquid et velit quidem nam reiciendis et aut tempore",
-      "displayDecription": false,
-      "isDone": true
-    }
-  ],
+  "tasks": [],
   "news": [
     {
       "id": 0,
-      "name": "ea tempore in",
-      "date": "2007-06-23",
-      "description": "sapiente et accusantium occaecati incidunt debitis"
+      "name": "est et aut",
+      "date": "2002-03-20",
+      "description": "autem molestiae"
     },
     {
       "id": 1,
-      "name": "vel voluptate esse commodi",
-      "date": "1997-08-23",
-      "description": "ut natus"
+      "name": "qui odio molestiae iure",
+      "date": "1986-03-23",
+      "description": "ut saepe eveniet esse dolorum molestiae"
     },
     {
       "id": 2,
-      "name": "excepturi qui ex",
-      "date": "2004-06-18",
-      "description": "dolore omnis et quis velit"
+      "name": "vel illum qui",
+      "date": "1975-12-24",
+      "description": "aut fugit molestiae beatae"
     },
     {
       "id": 3,
-      "name": "reprehenderit eos quia tempore et",
-      "date": "2009-02-25",
-      "description": "et molestias"
+      "name": "molestiae illo quae quisquam dolores",
+      "date": "1989-03-21",
+      "description": "dolores perspiciatis autem voluptate eius"
     },
     {
       "id": 4,
-      "name": "ratione error expedita",
-      "date": "2002-12-31",
-      "description": "iste perspiciatis ut quo non"
+      "name": "modi et optio alias amet",
+      "date": "1988-11-20",
+      "description": "fugit quis"
     },
     {
       "id": 5,
-      "name": "et ut",
-      "date": "1996-08-09",
-      "description": "soluta accusamus non"
+      "name": "voluptatem sit ea eum",
+      "date": "1994-06-10",
+      "description": "beatae qui fugit"
     },
     {
       "id": 6,
-      "name": "quod minima ducimus voluptas delectus",
-      "date": "1992-12-12",
-      "description": "ut ad voluptatum"
+      "name": "eos fugiat perferendis corrupti",
+      "date": "2009-08-25",
+      "description": "aspernatur est sed rerum ea ut"
     },
     {
       "id": 7,
-      "name": "ut qui dolore",
-      "date": "1989-07-18",
-      "description": "excepturi eos aspernatur quibusdam quidem"
+      "name": "ab dolores ut voluptatem voluptatibus",
+      "date": "1998-01-10",
+      "description": "maxime ipsum dolor"
     },
     {
       "id": 8,
-      "name": "suscipit voluptatem omnis",
-      "date": "1997-11-22",
-      "description": "omnis et unde est a"
+      "name": "consequuntur ducimus dolor corporis",
+      "date": "2014-08-08",
+      "description": "est"
     },
     {
       "id": 9,
-      "name": "ex ab dolorem sint",
-      "date": "1982-04-28",
-      "description": "dolorum voluptate quasi animi"
+      "name": "hic quo voluptatem eaque",
+      "date": "1981-03-06",
+      "description": "at laborum hic laudantium inventore"
     },
     {
       "id": 10,
-      "name": "nihil et",
-      "date": "1970-02-13",
-      "description": "odio sapiente sunt rem"
+      "name": "animi accusamus sapiente officiis",
+      "date": "2007-11-19",
+      "description": "optio voluptatibus quia nobis nesciunt"
     }
-  ]
+  ],
+  "userAction": {
+    "displayPopUp": false,
+    "taskName": "",
+    "taskDescription": "",
+    "taskDate": "",
+    "taskCategory": "none"
+  }
 }

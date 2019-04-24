@@ -62,13 +62,14 @@ const display = (state, actions) => {
   }
   return <p> Error !</p>
 }
+
 export default(state, actions) => {
   if (state.update[0] === false) {
     actions.updateState()
   }
   return (
     <main>
-      {display(state.tasks, actions)}
+      {display(state, actions)}
     </main>
   )
 }

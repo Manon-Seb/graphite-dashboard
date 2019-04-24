@@ -2,5 +2,9 @@ export default {
   update: [false],
   members: [],
   events: [],
-  news: []
+  news: [],
+  tasks: [],
+  userAction: {
+    displayPopUp: false
+  }
 }

@@ -17,7 +17,7 @@ const completed = (bool) => {
   )
 }
 
-const displayDecription = (bool, description) => {
+const displayDescription = (bool, description) => {
   if (bool === true) {
     return (
       <div className='width--100 content--center'>
@@ -47,7 +47,7 @@ export default (props, actions) => {
             <img src='../asset/img/drop-down-arrow.png' alt='open description'/>
           </button>
         </div>
-        {displayDecription(props.displayDecription, props.description)}
+        {displayDescription(props.action.displayDescription, props.description)}
         <div className='width--100 content--center'>
           <div className='container__horizontal'>
             <img className='task__card__date__img' src='../asset/img/passage-of-time.png' alt='Due date'/>

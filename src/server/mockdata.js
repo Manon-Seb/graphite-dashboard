@@ -1,7 +1,8 @@
 let casual = require('casual');
 
 // Create an object for config file
-let db = {update:[true],team:[],members:[],events:[],tasks:[],news:[]};
+let db = {update:[true],team:[],members:[],events:[],tasks:[],news:[],userAction:{displayPopUp: false,
+taskName:'', taskDescription:'',taskDate:'',taskCategory:'none'}};
 
 for (let i=0; i<3; i++){
   let team = {};
@@ -36,7 +37,9 @@ for(let i=0; i<=10; i++){
   tasks.dueDate = casual.date(format = 'YYYY-MM-DD');
   tasks.category = casual.random_element(['reunion','fanzine','communication']);
   tasks.description = casual.words(casual.integer(10,25));
-  tasks.displayDecription = false;
+  tasks.action = {
+    displayDescription: false,
+  }
   tasks.isDone = casual.boolean;
   db.tasks.push(tasks);
 }
