@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style-responsive.css">
+    <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
     <title>Graphite | dashboard</title>
   </head>
 
   <body>
-    <header>
+    <header class="computer">
       <img src="Logo_orange.jpg" width="851" height="315" alt="logo Graphite">
       <nav>
         <ul>
@@ -21,6 +23,27 @@
         </ul>
       </nav>
     </header>
+
+    <header class="mobile">
+      <!-- Menu mobile -->
+      <nav class="mobile-menu">
+        <ul class="menu">
+          <li><span>Menu</span>
+            <ul class="sous-menu">
+              <li>Dashboard</li>
+              <li>Les membres</li>
+              <li>Les news</li>
+              <li>Dernières publications</li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <img src="profile_pic_1.jpg" width="500" height="500" alt="profile pic">
+      <!--<img src="Logo_small.jpg" width="225" height="225" alt="logo mobile Graphite">-->
+      <a href="home.html"></a>
+    </header>
+
     <div class="content">
       <div class="user_bar">
         <p>Le Super Admin</p>
@@ -87,9 +110,16 @@
             <h3>News #3</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas mi at mi rhoncus ornare at et ex. Nullam quis pellentesque ante. Sed mattis enim id sapien laoreet euismod. Vestibulum at pulvinar diam. Integer eget nisl ac metus facilisis convallis. Praesent vestibulum scelerisque ipsum ut hendrerit.</p>
           </div>
+          <input type="button" value="Voir toutes les news">
         </div>
       </div>
 
     </div>
+
+    <script>
+      $('.menu li').on('click', function(){
+          $(this).children('ul').slideToggle();
+      });
+    </script>
   </body>
 </html>
