@@ -25,9 +25,9 @@ export default (props, actions) => {
     <div>
       <div className={'task__card ' + 'task__card' + '__' + props.category}>
         <div className='container__horizontal'>
-          <button onclick={() => actions.taskDone(props.id)}>
+          <div onclick={() => actions.taskDone(props.id)}>
             ✔️
-          </button>
+          </div>
           <h3 onclick={() => actions.openDescription(props.id)}>{props.tasks}</h3>
         </div>
         {displayDescription(props.action.displayDescription, props, actions)}
