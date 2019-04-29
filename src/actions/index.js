@@ -61,7 +61,8 @@ export default {
       category: state.userAction.taskCategory,
       description: state.userAction.taskDescription,
       action: {
-        displayDescription: false
+        displayDescription: false,
+        displayPopUp: false // verifier
       },
       isDone: false
     }
@@ -70,6 +71,29 @@ export default {
     // addData('http://localhost:8080/tasks', newTask)
     return {...state,
       tasks: newArray
+    }
+  },
+
+  changeTask: (id) => (state) => {
+    const taskId = state.tasks.findIndex(i => i.id === id)
+    const changedTask = {
+      idMember: 0,
+      tasks: state.userAction.taskName,
+      dueDate: state.userAction.taskDate,
+      category: state.userAction.taskCategory,
+      description: state.userAction.taskDescription,
+      action: {
+        displayDescription: false,
+        displayPopUp: false
+      },
+      isDone: false
+    }
+    changeData('http://localhost:8080/tasks/' + id, changedTask)
+    const taskArray = state.tasks.slice(0, taskId)
+      .concat([changedTask])
+      .concat(state.tasks.slice(taskId + 1, state.tasks.length))
+    return {...state,
+      tasks: taskArray
     }
   },
 
@@ -95,7 +119,13 @@ export default {
       .concat([{...state.tasks[taskId], action: {...state.tasks[taskId].action, displayPopUp: !state.tasks[taskId].action.displayPopUp}}])
       .concat(state.tasks.slice(taskId + 1, state.tasks.length))
     console.log(taskArray[taskId])
-    return {...state, tasks: taskArray}
+    return {...state,
+      tasks: taskArray,
+      userAction: {...state.userAction,
+        taskName: state.tasks[taskId].tasks,
+        taskDescription: state.tasks[taskId].description,
+        taskDate: state.tasks[taskId].dueDate,
+        taskCategory: state.tasks[taskId].category}}
   }
 }
 
