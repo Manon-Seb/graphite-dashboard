@@ -2,6 +2,7 @@ import { h } from 'hyperapp'
 
 export default (task, action, bool) => {
   if (bool) {
+    console.log('encore un pb')
     return (
       <div className='popUp'>
         <div className='popUp__form'>

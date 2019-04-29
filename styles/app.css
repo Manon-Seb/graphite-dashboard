@@ -86,6 +86,10 @@ textarea:hover {
   color: #999;
 }
 
+.isActive {
+  color:orange;
+}
+
 .tasksList {
   background-color: rgb(243,243,243);
   margin: 5%;

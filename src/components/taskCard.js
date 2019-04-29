@@ -47,6 +47,9 @@ export default (props, actions) => {
           <button onclick={() => actions.openDescription(props.id)}>
             <img src='../asset/img/drop-down-arrow.png' alt='open description'/>
           </button>
+          <button onclick={() => actions.taskDone(props.id)}>
+            ✔️
+          </button>
         </div>
         {displayDescription(props.action.displayDescription, props.description)}
         <div className='width--100 content--center'>

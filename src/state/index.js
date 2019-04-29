@@ -5,6 +5,8 @@ export default {
   news: [],
   tasks: [],
   userAction: {
-    displayPopUp: false
+    task: {
+      displayPopUp: false
+    }
   }
 }

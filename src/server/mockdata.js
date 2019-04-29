@@ -1,8 +1,17 @@
 let casual = require('casual');
 
 // Create an object for config file
-let db = {update:[true],team:[],members:[],events:[],tasks:[],news:[],userAction:{displayPopUp: false,
-taskName:'', taskDescription:'',taskDate:'',taskCategory:'none'}};
+let db = {update:[true],team:[],members:[],events:[],tasks:[],news:[],
+  userAction:{task:
+    { displayPopUp: false,
+      taskName:'',
+      taskDescription:'',
+      taskDate:'',
+      taskCategory:'none',
+      communication: false,
+      fanzine: false,
+      reunion: false
+    }}};
 
 for (let i=0; i<3; i++){
   let team = {};
