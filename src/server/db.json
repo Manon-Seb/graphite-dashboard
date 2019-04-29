@@ -281,29 +281,16 @@
   "tasks": [
     {
       "idMember": 0,
-      "tasks": "Hello ! it's me",
-      "dueDate": "2005-10-14",
-      "category": "communication",
-      "description": "I was wondering if after all this year you'd like to meet",
+      "tasks": "magnam at est iusto",
+      "dueDate": "2016-01-03",
+      "category": "fanzine",
+      "description": "Ooooh lala lala",
       "action": {
         "displayDescription": false,
         "displayPopUp": false
       },
       "isDone": true,
-      "id": 0
-    },
-    {
-      "id": 1,
-      "idMember": 9,
-      "tasks": "magnam at est iusto",
-      "dueDate": "2016-01-03",
-      "category": "fanzine",
-      "description": "blanditiis reiciendis illum omnis qui rem nihil ad minima officia sapiente quo quis quis necessitatibus nulla sint at dolorem dicta accusamus sequi eligendi ullam",
-      "action": {
-        "displayDescription": false,
-        "displayPopUp": false
-      },
-      "isDone": true
+      "id": 1
     },
     {
       "id": 2,
