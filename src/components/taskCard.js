@@ -1,4 +1,5 @@
 import { h } from 'hyperapp'
+import modifyPopUp from './modifyPopUp'
 
 const completed = (bool) => {
   if (bool === true) {
@@ -37,7 +38,7 @@ export default (props, actions) => {
           {completed(props.isDone)}
           <div className='container__horizontal task__option'>
             <img className='task__option__img' src='../asset/img/waste-bin.png' alt='delete task' onclick={() => actions.deleteTask(props.id)}/>
-            <img className='task__option__img' src='../asset/img/pencil.png' alt='modify task' onclick={() => console.log('modify')}/>
+            <img className='task__option__img' src='../asset/img/pencil.png' alt='modify task' onclick={() => actions.taskPopUp(props.id)}/>
             <img className='task__option__img' src='../asset/img/more.png' alt='more' onclick={() => console.log('more')}/>
           </div>
         </div>
@@ -55,6 +56,7 @@ export default (props, actions) => {
           </div>
         </div>
       </div>
+      {modifyPopUp(props, actions, props.action.displayPopUp)}
     </div>
   )
 }

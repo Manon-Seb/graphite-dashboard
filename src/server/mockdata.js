@@ -39,6 +39,7 @@ for(let i=0; i<=10; i++){
   tasks.description = casual.words(casual.integer(10,25));
   tasks.action = {
     displayDescription: false,
+    displayPopUp: false
   }
   tasks.isDone = casual.boolean;
   db.tasks.push(tasks);

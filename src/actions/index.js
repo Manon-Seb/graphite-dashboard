@@ -87,6 +87,15 @@ export default {
     const element = document.getElementById('categorie').selectedIndex
     const value = document.getElementById('categorie').options[element].value
     return {...state, userAction: {...state.userAction, taskCategory: value}}
+  },
+  taskPopUp: (id) => (state) => {
+    const taskId = state.tasks.findIndex(i => i.id === id)
+    console.log(taskId)
+    const taskArray = state.tasks.slice(0, taskId)
+      .concat([{...state.tasks[taskId], action: {...state.tasks[taskId].action, displayPopUp: !state.tasks[taskId].action.displayPopUp}}])
+      .concat(state.tasks.slice(taskId + 1, state.tasks.length))
+    console.log(taskArray[taskId])
+    return {...state, tasks: taskArray}
   }
 }
 
