@@ -20,16 +20,31 @@ const displayDescription = (bool, props, actions) => {
   }
 }
 
+const isDone = (props, actions) => {
+  if (props.isDone) {
+    return (
+      <div className='container__horizontal'>
+        <div className='checkbox' onclick={() => actions.taskDone(props.id)}>
+          ✔️
+        </div>
+        <h3  className='taskDone' onclick={() => actions.openDescription(props.id)}>{props.tasks}</h3>
+      </div>
+    )
+  }
+  return (
+    <div className='container__horizontal'>
+      <div className='checkbox' onclick={() => actions.taskDone(props.id)}>
+      </div>
+      <h3 onclick={() => actions.openDescription(props.id)}>{props.tasks}</h3>
+    </div>
+  )
+}
+
 export default (props, actions) => {
   return (
     <div>
       <div className={'task__card ' + 'task__card' + '__' + props.category}>
-        <div className='container__horizontal'>
-          <div onclick={() => actions.taskDone(props.id)}>
-            ✔️
-          </div>
-          <h3 onclick={() => actions.openDescription(props.id)}>{props.tasks}</h3>
-        </div>
+        {isDone(props, actions)}
         {displayDescription(props.action.displayDescription, props, actions)}
         <div className='width--100 content--center'>
           <div className='container__horizontal'>

@@ -109,7 +109,7 @@ export default {
   },
   taskDone: (id) => (state) => {
     const taskId = state.tasks.findIndex(i => i.id === id)
-    const task = {...state.tasks[taskId], isDone: true}
+    const task = {...state.tasks[taskId], isDone: !state.tasks[taskId].isDone}
     const taskArray = state.tasks.slice(0, taskId)
       .concat([task])
       .concat(state.tasks.slice(taskId + 1, state.tasks.length))

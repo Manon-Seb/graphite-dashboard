@@ -23,12 +23,13 @@ export default (state, actions) => {
           <div className='tasks'>
             {displayByCategory(state.tasks, state.userAction.task.fanzine, state.userAction.task.communication, state.userAction.task.reunion, actions)}
           </div>
-          <button onclick={() => actions.displayPopUp()}>Add a task</button>
+          <button className='button__add' onclick={() => actions.displayPopUp()}>Ajouter une tâche</button>
         </div>
-        <div className='container__vertical'>
-          <button className={state.userAction.task.fanzine ? 'category__button isActive' : 'category__button'} onclick={() => actions.isClick(1)}> Fanzine </button>
-          <button className={state.userAction.task.communication ? 'category__button isActive' : 'category__button'} onclick={() => actions.isClick(2)}> Communication </button>
-          <button className={state.userAction.task.reunion ? 'category__button isActive' : 'category__button'} onclick={() => actions.isClick(3)}> Réunion </button>
+        <div className='container__vertical margin--5'>
+          <h2> Catégories </h2>
+          <button className={state.userAction.task.fanzine ? 'category__button fanzine isActive' : 'category__button fanzine'} onclick={() => actions.isClick(1)}> Fanzine </button>
+          <button className={state.userAction.task.communication ? 'category__button communication isActive' : 'category__button communication'} onclick={() => actions.isClick(2)}> Communication </button>
+          <button className={state.userAction.task.reunion ? 'category__button reunion isActive' : 'category__button reunion'} onclick={() => actions.isClick(3)}> Réunion </button>
         </div>
       </div>
       {popUp(state.userAction.task.displayPopUp, actions)}
