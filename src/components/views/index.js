@@ -1,75 +1,35 @@
 import { h } from 'hyperapp'
-import taskslist from '../taskslist'
-// METHOD 1
+import header from '../header'
+import header_mobile from '../header_mobile'
+import user_bar from '../user_bar'
+import left_content from '../about_members'
+import right_content from '../calendar_news'
 
-// the whole promise chain fails with an error here
-// change that:
-// make errors appear as members of the results array
-
-// Fix it:
-/*
-Promise.all(urls.map(url => fetch(url)))
-  .then(responses => Promise.all(responses.map(r => r.json())))
-// Demo output (no need to change):
- .then(results => {
-    console.log(results[0][0].name)
-  }) */
-// METHOD 2
-/*
-const getPromise = (url) => {
-  return fetch(url)
-}
-
-const getData = (response) => {
-  return response.json()
-}
-
-const deleteData = (url) => {
-  return fetch(url, {method: 'DELETE'})
-}
-
-const addData = (url, object) => {
-  return fetch(url, {
-    headers: { 'Content-Type': 'application/json; charset=utf-8' },
-    method: 'POST',
-    body: JSON.stringify(object)
-  })
-}
-
-const changeData = (url, object) => {
-  fetch(url, {
-    headers: { 'Content-Type': 'application/json; charset=utf-8' },
-    method: 'PUT',
-    body: JSON.stringify(object)
-  })
-} */
-
-/*
-addData('http://localhost:8080/news', {
-  name: 'esse atque perferendis tenetur voluptas',
-  description: 'impedit'
-})
-
-changeData('http://localhost:8080/news/15', {
-  name: 'Atelier dessin',
-  description: 'Apprendre à dessiner un personnage'
-})
-
-*/
 const display = (state, actions) => {
   if (state !== undefined) {
-    return (taskslist(state, actions))
+    return (
+      <body>
+        {header(state.user, actions)}
+        {header_mobile(state.user, actions)}
+
+        <div class="content">
+          {user_bar(state.user, actions)}
+          <h1>Dashboard</h1>
+          {left_content(state, actions)}
+          {right_content(state.user, actions)}
+        </div>
+      </body>
+    )
   }
   return <p> Error !</p>
 }
 
-export default(state, actions) => {
+export default (state, actions) => {
   if (state.update[0] === false) {
+    console.log('Updated')
     actions.updateState()
   }
   return (
-    <main>
-      {display(state, actions)}
-    </main>
+    display(state, actions)
   )
 }
