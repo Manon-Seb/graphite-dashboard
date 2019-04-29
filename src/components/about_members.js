@@ -1,5 +1,5 @@
 import { h } from 'hyperapp'
-import tasksList from './taskslist'
+import tasksList from './deadlines/taskslist'
 
 const display = (state, actions) => {
   if (state !== undefined) {
