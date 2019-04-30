@@ -8,17 +8,18 @@ import right_content from '../calendar_news'
 const display = (state, actions) => {
   if (state !== undefined) {
     return (
-      <body>
-        {header(state.user, actions)}
-        {header_mobile(state.user, actions)}
-
-        <div class="content">
-          {user_bar(state.user, actions)}
-          <h1>Dashboard</h1>
-          {left_content(state, actions)}
-          {right_content(state, actions)}
-        </div>
-      </body>
+      <main>
+        <body>
+          {header(state.user, actions)}
+          {header_mobile(state.user, actions)}
+          <div class="content">
+            {user_bar(state.user, actions)}
+            <h1>Dashboard</h1>
+            {left_content(state, actions)}
+            {right_content(state, actions)}
+          </div>
+        </body>
+      </main>
     )
   }
   return <p> Error !</p>
