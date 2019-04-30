@@ -27,7 +27,7 @@ const isDone = (props, actions) => {
         <div className='checkbox' onclick={() => actions.taskDone(props.id)}>
           ✔️
         </div>
-        <h3  className='taskDone' onclick={() => actions.openDescription(props.id)}>{props.tasks}</h3>
+        <h3 className='taskDone' onclick={() => actions.openDescription(props.id)}>{props.tasks}</h3>
       </div>
     )
   }

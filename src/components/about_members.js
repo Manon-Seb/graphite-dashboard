@@ -1,9 +1,9 @@
 import { h } from 'hyperapp'
 import tasksList from './deadlines/taskslist'
+import memberList from './member/memberlist'
 
 const display = (state, actions) => {
   if (state !== undefined) {
-    console.log('ok')
     return (tasksList(state, actions))
   }
   return <p> Error !</p>
@@ -15,29 +15,7 @@ export default (state, actions) => {
       <div class="team category">
         <h2>L'équipe 2019-2020</h2>
         <div class="profiles">
-          <div>
-            <img src="../../img/profile_pic_1.jpg" width="500" height="500" alt="profile pic" />
-            <h3>Léo DRAGUY<br/>
-            Président</h3>
-            <p>Président de Graphite depuis 2017. Adore manger et dormir.</p>
-            <input type="button" value="Voir le profil"/>
-          </div>
-
-          <div>
-            <img src="../../img/profile_pic_1.jpg" width="500" height="500" alt="profile pic"/>
-            <h3>Anthony MAI<br/>
-            Vice-président</h3>
-            <p>Président de Graphite depuis 2017. Adore manger et dormir.</p>
-            <input type="button" value="Voir le profil"/>
-          </div>
-
-          <div>
-            <img src="../../img/profile_pic_1.jpg" width="500" height="500" alt="profile pic"/>
-            <h3>Hana TENDA<br/>
-            Trésorière</h3>
-            <p>Président de Graphite depuis 2017. Adore manger et dormir.</p>
-            <input type="button" value="Voir le profil"/>
-          </div>
+          {memberList(state.team)}
         </div>
       </div>
 
