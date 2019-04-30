@@ -16,7 +16,7 @@ const display = (state, actions) => {
           {user_bar(state.user, actions)}
           <h1>Dashboard</h1>
           {left_content(state, actions)}
-          {right_content(state.user, actions)}
+          {right_content(state, actions)}
         </div>
       </body>
     )
