@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+/********************************************************
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-size: calc(10px + 2vmin);
+}
+
+main {
+  width: 100%;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+***************************************************************/
 html {
   line-height: 1.15; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
@@ -13,9 +37,57 @@ body{
   position: relative;
 }
 
-h1{
+section > *+* {
+  margin-left: 2rem;
+}
+
+button {
+  padding: 0 1rem;
+  border: none;
+  font-size: 2rem;
+  height: 3rem;
+}
+
+h1 {
+  font-size: 4rem;
   text-align: center;
 }
+
+h3 {
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
+
+textarea {
+  resize: none;
+}
+
+input[type='text'] {
+  width: 100%;
+  border: 2px solid #cacaca;
+  padding: 3%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #cacaca;
+}
+
+input[type='text']:hover {
+  border: 2px solid #DC7D2F;
+}
+
+textarea {
+  width: 100%;
+  border: 2px solid #cacaca;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+  color: #cacaca;
+  font-size: 1rem;
+}
+
+textarea:hover {
+  border: 2px solid orange;
+}
+
 body, .content{
   display: flex;
   flex-wrap: wrap;
@@ -58,7 +130,7 @@ li{
 }
 .content h1{
   width: 100%;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .user_bar{
@@ -121,10 +193,11 @@ li{
 .right{
   position: fixed;
   width: 30%;
-  top: 140px;
+  top: 175.5px;
   right: 2.5%;
 }
 
+/****** LEFT CONTENT ******/
 .team .profiles{
   padding: 20px;
   text-align: center;
@@ -176,13 +249,14 @@ input[type=button]:hover{
 .team, .stats_members{
   margin-bottom: 10px;
 }
-.calendar{
-  margin-bottom: 10px;
-}
 .team div p, h2{
   margin-top: 5px;
 }
 
+/****** Right content ******/
+.calendar{
+  margin-bottom: 10px;
+}
 .news{
   width: auto;
   height: 50%;
@@ -198,114 +272,268 @@ input[type=button]:hover{
 .news h3{
   margin: 10px 0;
 }
-.news input[type=button]{
+.team .profiles button, .news button{
+  display: block;
+  margin: 0 auto;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  background-color: #DC7D2F;
+  color: #fff;
+  font-size: 1rem;
+  box-shadow: none;
+}
+.team .profiles button:hover, .news button:hover, .button__add:hover{
+  cursor: pointer;
+  background-color: #fff;
+  color: #DC7D2F;
+  border: 1px solid #DC7D2F;
+  -moz-animation : change_color 1s;
+  -webkit-animation: change_color 1s;
+  animation: change_color 1s;
+}
+.news button{
   margin-bottom: 20px;
 }
 
-/******* RESPONSIVE *******/
+/****** TO-DO LIST ******/
 
-/* Smartphone */
-@media screen and (max-width: 375px){
-  .computer, .user_bar, .sous-menu{
-    display: none;
-  }
-  .mobile, .mobile-menu{
-    display: block;
-  }
-  .mobile{
-    position: fixed;
+.button__add {
+  margin: 3%;
+  width: 40%;
+  background-color: #DC7D2F;
+  border-radius: 25px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 1rem;
+}
+
+.category__button {
+  background: none;
+  font-size: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  margin-top:5%;
+}
+
+.checkbox {
+  margin: 5%;
+  height: 20px;
+  width: 20px;
+  background-color: #D6D6D6;
+}
+
+.fanzine:hover {
+  color: #00EABB;
+}
+
+.communication:hover {
+  color: orange;
+}
+
+.reunion:hover {
+  color: #FF0012;
+}
+.fanzine:hover, .communication:hover, .reunion:hover{
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.isActive {
+  color:orange;
+}
+
+.tasksList {
+  width: 100%;
+}
+.tasks {
+  height: 50vh;
+  overflow-y: scroll;
+  border-bottom: 2px solid #E2E2E2;
+}
+
+.taskDone {
+  color: #D6D6D6;
+}
+
+.task__card {
+  background-color: rgb(243,243,243);
+  width: 85%;
+  margin: 5%;
+  box-shadow: 5px 5px 10px #AAA;
+}
+
+.task__card h3 {
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+.task__card__reunion {
+  border-radius: 15px;
+  border-right-style: solid;
+  border-right-color: #FF00A2;
+  border-right-width: 25px;
+}
+
+.task__card__fanzine {
+  border-radius: 15px;
+  border-right-style: solid;
+  border-right-color: #00EABB;
+  border-right-width: 25px;
+}
+
+.task__card__communication {
+  border-radius: 15px;
+  border-right-style: solid;
+  border-right-color: orange;
+  border-right-width: 25px;
+}
+
+.task__card__date {
+  font-weight: bold;
+  margin-left: 3vh;
+  color: #CACACA;
+  text-align: center;
+}
+
+.task__card img {
+   width: 3vh;
+   height: 3vh;
+}
+
+.task__card__date__img {
+  margin: auto;
+}
+
+.task__card__state--purple {
+  width: 25px;
+  height: 25px;
+  background-color: purple;
+}
+
+.task__card__state--green {
+  width: 25px;
+  height: 25px;
+  background-color: green;
+}
+
+.task__card__state__text {
+  margin: 5% 5% 5% 0;
+}
+
+.task__option {
+  margin: auto;
+}
+
+.task__option__img {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  margin-right: 1vh;
+  margin-left: 1vh;
+}
+
+.content--center {
+   align-items: center;
+   justify-content: center;
+}
+
+.popUp {
+  display:block;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+
+  background-color: rgba(0,0,0,0.5);
+
+  font-family: 'Montserrat', sans-serif;
+  color: #CACACA;
+}
+
+.popUp h2 {
+  color: black;
+  font-weight:400;
+  font-size: 2rem;
+}
+
+.popUp label {
+  font-size: 1rem;
+}
+
+.popUp__form {
+  background-color: white;
+  width: 30%;
+  position: fixed;
+  left: 50%;
+  margin-left: -15%;
+  top: 50%;
+  margin-top: -20%;
+}
+
+.popUp__label {
+  width: 45%
+}
+
+.popUp__container {
     width: 100%;
-    z-index: 100;
-    background-color: #fff;
-    border-bottom: 2px solid #E2E2E2;
-  }
-  .mobile nav:hover{
-    cursor: pointer;
-  }
-  .mobile ul:first-child{
-    padding-left: 20px;
-  }
-  .mobile .sous-menu{
-    position: fixed;
-    width: 100%;
-    z-index: 110;
-    margin-top: 15px;
-    padding: 0;
-    left: 0;
-    background-color: #fff;
-    border: 1px solid #E2E2E2;
-  }
-  .mobile .sous-menu li{
-    margin-left: 0;
-    padding: 10px 30px 10px 10px;
-    border: 1px solid #E2E2E2;
-  }
-  .mobile .sous-menu li:hover{
-    background-color: #DC7D2F;
-    color: #fff;
-  }
-  .mobile a{
-    width: 15%;
-    height: 40px;
-    margin: 0 25%;
-    background-image: url({../img/Logo_small.jpg});
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  .mobile img{
-    width: 10%;
-    margin: 5px 15px 5px 0;
-    border-radius: 50%;
-    border: 1px solid #D2D2D2;
-    float: right;
-  }
-  .mobile nav, .mobile a, .mobile img{
-    display: inline-block;
-    vertical-align: middle;
-  }
-  .content{
-    margin: 0 auto;
-  }
-  .content h1{
-    margin-top: 20%;
-  }
-  .left{
-    margin: 0 auto 20px auto;
-  }
-  .left .profiles div{
-    display: block;
-    width: 95%;
-  }
-  .left .profiles div:first-child, .left .profiles div:nth-child(2){
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-  .left .profiles div img{
-    width: 30%;
-    margin-right: 20px;
-  }
-  .stats_members img{
-    width: 85%;
-  }
-  .right{
-    position: relative;
-    top: auto;
-    right: auto;
-    margin: 0 auto;
-  }
-  .left, .right{
-    width: 90%;
-  }
-  .calendar img{
-    width: 90%;
-  }
-  .news{
-    width: auto;
-    height: auto;
-    overflow: inherit;
-    margin-bottom: 20px;
-  }
+}
+
+.popUp__Add {
+  margin-top: 3%;
+  width: 40%;
+  background-color: orange;
+  border-radius: 25px;
+
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 1rem;
+}
+
+.popUp__Cancel {
+  margin-top: 3%;
+  background: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #cacaca;
+  font-size: 1rem;
+}
+
+.popUp__Cancel:hover {
+  color: orange;
+}
+
+.container__horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.container__vertical {
+  display: flex;
+  flex-direction: column;
+}
+.width--70 {
+  width: 70%;
+  text-align: center;
+  border-right: 2px solid #E2E2E2;
+}
+
+.width--100 {
+  width: 100%;
+  display: flex;
+}
+
+.margin--5 {
+  margin:5%;
+}
+
+.margin--3 {
+  margin:3%;
+}
+
+.space-between {
+  justify-content: space-between;
 }
 
 /******* ANIMATIONS *******/

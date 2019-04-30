@@ -1,44 +1,82 @@
 import { h } from 'hyperapp'
+import Chart from 'chart.js'
+import tasksList from './deadlines/taskslist'
+import memberList from './member/memberlist'
 
-export default () => {
+const display = (state, actions) => {
+  if (state !== undefined) {
+    return (tasksList(state, actions))
+  }
+  return <p> Error !</p>
+}
+function MyChart (props) {
+  return h('canvas', {
+    oncreate: (element) => {
+      const ctx = element.getContext('2d')
+      const data = props.myData // or whatever
+      const myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+          datasets: [{
+            label: '# of Votes',
+            data: data,
+            backgroundColor: [
+              'rgba(255, 99, 132, 0.2)',
+              'rgba(54, 162, 235, 0.2)',
+              'rgba(255, 206, 86, 0.2)',
+              'rgba(75, 192, 192, 0.2)',
+              'rgba(153, 102, 255, 0.2)',
+              'rgba(255, 159, 64, 0.2)'
+            ],
+            borderColor: [
+              'rgba(255,99,132,1)',
+              'rgba(54, 162, 235, 1)',
+              'rgba(255, 206, 86, 1)',
+              'rgba(75, 192, 192, 1)',
+              'rgba(153, 102, 255, 1)',
+              'rgba(255, 159, 64, 1)'
+            ],
+            borderWidth: 1
+          }]
+        },
+        options: {
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: true
+              }
+            }]
+          }
+        }
+      })
+    }
+    //   onupdate: ...,
+    //     onremove: ...,
+    //     ondestroy: ...,
+  })
+}
+
+export default (state, actions) => {
   return (
     <div class="left">
       <div class="team category">
         <h2>L'équipe 2019-2020</h2>
         <div class="profiles">
-          <div>
-            <img src="../../img/profile_pic_1.jpg" width="500" height="500" alt="profile pic" />
-            <h3>Léo DRAGUY<br/>
-            Président</h3>
-            <p>Président de Graphite depuis 2017. Adore manger et dormir.</p>
-            <input type="button" value="Voir le profil"/>
-          </div>
-
-          <div>
-            <img src="../../img/profile_pic_1.jpg" width="500" height="500" alt="profile pic"/>
-            <h3>Anthony MAI<br/>
-            Vice-président</h3>
-            <p>Président de Graphite depuis 2017. Adore manger et dormir.</p>
-            <input type="button" value="Voir le profil"/>
-          </div>
-
-          <div>
-            <img src="../../img/profile_pic_1.jpg" width="500" height="500" alt="profile pic"/>
-            <h3>Hana TENDA<br/>
-            Trésorière</h3>
-            <p>Président de Graphite depuis 2017. Adore manger et dormir.</p>
-            <input type="button" value="Voir le profil"/>
-          </div>
+          {memberList(state.team)}
         </div>
       </div>
 
       <div class="stats_members category">
         <h2>Nos membres dans l'ensemble</h2>
-        <img src="../../img/Graph_example.png" witdh="1054" height="423" alt="graph example"/>
+        {MyChart({myData: [50, 50, 30, 12, 21, 30]})}
       </div>
 
       <div class="deadlines category">
         <h2>Deadlines</h2>
+        <div>
+          {display(state, actions)}
+        </div>
       </div>
     </div>
   )
