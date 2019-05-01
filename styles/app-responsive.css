@@ -1,7 +1,6 @@
 /******* RESPONSIVE *******/
 
-/* Smartphone */
-@media screen and (max-width: 375px){
+@media screen and (max-width: 800px){
   .computer, .user_bar, .sous-menu{
     display: none;
   }
@@ -50,7 +49,6 @@
     background-size: contain;
   }
   .mobile img{
-    width: 10%;
     margin: 5px 15px 5px 0;
     border-radius: 50%;
     border: 1px solid #D2D2D2;
@@ -63,12 +61,7 @@
   .content{
     margin: 0 auto;
   }
-  .content h1{
-    margin-top: 20%;
-  }
-  .left{
-    margin: 0 auto 20px auto;
-  }
+  /****** TEAM *****/
   .left .profiles div{
     display: block;
     width: 95%;
@@ -78,11 +71,81 @@
     margin-bottom: 10px;
   }
   .left .profiles div img{
-    width: 30%;
     margin-right: 20px;
   }
-  .stats_members img{
-    width: 85%;
+  /****** TO-DO LIST ******/
+  .container__horizontal{
+    display: block;
+  }
+  .width--70{
+    width: 90%;
+    margin: 0 5%;
+    border-right: none;
+  }
+  .container__horizontal h3, .container__horizontal .checkbox{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .container__horizontal h3{
+    width: 70%;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Tablette */
+@media screen and (min-width: 480px) and (max-width: 800px){
+  .mobile img{
+    width: 5%;
+  }
+  .content{
+    width: 90%;
+  }
+  .content h1{
+    margin-top: 10%;
+  }
+  .left{
+    margin-left: 0;
+    width: 65%;
+  }
+  .left .profiles div{
+    text-align: center;
+  }
+  .left .profiles div img{
+    width: 20%;
+  }
+  .left .profiles p{
+    text-align: justify;
+    padding: 5px 15px;
+  }
+  .team .profiles button{
+    width: 60%;
+  }
+  .right{
+    top: 16%;
+    right: 5%;
+    width: 30%;
+  }
+  .news button, .button__add{
+    width: 75%;
+  }
+  .button__add{
+    margin: 5% 3%;
+  }
+}
+
+/* Smartphone */
+@media screen and (max-width: 479px){
+  .mobile img{
+    width: 10%;
+  }
+  .content h1{
+    margin-top: 20%;
+  }
+  .left{
+    margin: 0 auto 20px auto;
+  }
+  .left .profiles div img{
+    width: 30%;
   }
   .right{
     position: relative;
@@ -101,5 +164,8 @@
     height: auto;
     overflow: inherit;
     margin-bottom: 20px;
+  }
+  .news button, .button__add{
+    width: 70%;
   }
 }
