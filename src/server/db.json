@@ -5,32 +5,32 @@
   "team": [
     {
       "id": 0,
-      "name": "Shyanne",
-      "job": "inventore",
+      "name": "Léo DRAGUY",
+      "job": "Président",
       "subject": "ut",
       "age": 24,
-      "description": "ratione consequatur asperiores quae nobis",
-      "drawingTechnique": "delectus",
+      "description": "Excellent dessinateur menant l'association d'une main de fer.",
+      "drawingTechnique": "Traditionnelle et tablette",
       "publicationNb": 2
     },
     {
       "id": 1,
-      "name": "Elian",
-      "job": "sapiente",
+      "name": "Anthony MAI",
+      "job": "Vice-président",
       "subject": "illo",
       "age": 20,
-      "description": "cupiditate expedita odio tempora",
-      "drawingTechnique": "est",
+      "description": "Il adore dormir mais il est toujours au rapport pour les réunions.",
+      "drawingTechnique": "Traditionnelle",
       "publicationNb": 5
     },
     {
       "id": 2,
-      "name": "Kallie",
-      "job": "dolorem",
+      "name": "Hana TENDA",
+      "job": "Trésorière",
       "subject": "aut",
       "age": 25,
-      "description": "nobis quo dolore",
-      "drawingTechnique": "expedita",
+      "description": "Sérieuse et consciencieuse, elle est la gardienne des trésor de l'association.",
+      "drawingTechnique": "Tablette",
       "publicationNb": 4
     }
   ],
@@ -38,31 +38,31 @@
     {
       "id": 0,
       "name": "Danyka",
-      "job": "inventore",
+      "job": "Réalise les croquis des planches pour les BD.",
       "subject": "accusantium",
       "age": 21,
-      "description": "nisi praesentium nulla quam",
-      "drawingTechnique": "pariatur",
+      "description": "Dessinant plus vite que son ombre, elle peut vous sortir le croquis de 10 planches de BD par heure, et encore plus si vous lui apportez un paquet de bonbon.",
+      "drawingTechnique": "Traditionnelle",
       "publicationNb": 2
     },
     {
       "id": 1,
       "name": "Brad",
-      "job": "totam",
+      "job": "Character designer",
       "subject": "et",
       "age": 22,
-      "description": "et",
-      "drawingTechnique": "natus",
+      "description": "Doté d'une imagination débordante, il adore créer des personnages de tous univers, avec une préférence pour le cyberpunk et tout ce qui est futuriste.",
+      "drawingTechnique": "Traditionnelle et tablette",
       "publicationNb": 4
     },
     {
       "id": 2,
       "name": "Bradley",
-      "job": "deleniti",
+      "job": "Création de décors",
       "subject": "perferendis",
       "age": 21,
-      "description": "iure eos",
-      "drawingTechnique": "cum",
+      "description": "Membre spécialisé dans le dessin de paysages, en particulier de grandes villes au style futuriste. Il réalise ses croquis en technique tradtionnelle avant de toute passer sur ordinateur pour le line et la couleur.",
+      "drawingTechnique": "Traditionnelle et tablette",
       "publicationNb": 5
     },
     {
@@ -72,7 +72,7 @@
       "subject": "dolores",
       "age": 23,
       "description": "quasi quibusdam eum",
-      "drawingTechnique": "est",
+      "drawingTechnique": "Tablette",
       "publicationNb": 1
     },
     {
@@ -426,68 +426,68 @@
   "news": [
     {
       "id": 0,
-      "name": "fugit delectus cum",
-      "date": "1986-05-08",
-      "description": "et distinctio sed voluptatum"
+      "name": "Recrutement équipe 2020",
+      "date": "2019-05-01",
+      "description": "Graphite recherche de nouveaux dessinateurs pour intégrer l'équipe de 2020 ! Séances créatives, bonne humeur et partage sont au rendez-vous !"
     },
     {
       "id": 1,
-      "name": "voluptatibus cum",
-      "date": "2008-04-06",
-      "description": "excepturi consequatur ea tempora"
+      "name": "Festival Pulp édition 2020",
+      "date": "2019-04-06",
+      "description": "Le festival Pulp vient à peine de se terminer que nous préparons la prochaine édition. Notez dès à présent les dates : du 3 à 5 avril 2020 !"
     },
     {
       "id": 2,
-      "name": "perferendis voluptatibus",
-      "date": "2014-08-28",
-      "description": "praesentium impedit dolorum"
+      "name": "Dernière ligne droite avant le festival Pulp",
+      "date": "2019-03-20",
+      "description": "Le festival Pulp approche à grands pas ! Venez découvrir nos artistes et leur fanzine les 6 et 7 avril prochain !"
     },
     {
       "id": 3,
-      "name": "harum aut accusamus qui",
-      "date": "1988-01-19",
-      "description": "aut"
+      "name": "Programme du festival Pulp",
+      "date": "2019-02-19",
+      "description": "Le programme du festival est en ligne ! Animations, échanges, ateliers, nous vous avons concocté plein d'activités !"
     },
     {
       "id": 4,
       "name": "quia non",
-      "date": "1983-07-23",
+      "date": "2019-02-10",
       "description": "aut sapiente facere tempora"
     },
     {
       "id": 5,
       "name": "explicabo et ullam sint",
-      "date": "1997-11-04",
+      "date": "2019-01-04",
       "description": "architecto ab aut dolor nam"
     },
     {
       "id": 6,
       "name": "voluptatem aut",
-      "date": "1999-01-14",
+      "date": "2018-12-31",
       "description": "labore"
     },
     {
       "id": 7,
       "name": "adipisci delectus eum dicta et",
-      "date": "1974-05-09",
+      "date": "2018-12-18",
       "description": "dolore et voluptatum praesentium"
     },
     {
       "id": 8,
       "name": "dolores quis cum vitae non",
-      "date": "2004-03-29",
+      "date": "2018-12-01",
       "description": "ducimus quidem"
     },
     {
       "id": 9,
       "name": "tempore recusandae expedita deleniti",
-      "date": "2004-11-01",
+      "date": "2018-10-31",
       "description": "et voluptate consequatur itaque"
     },
     {
       "id": 10,
       "name": "quae unde qui amet",
-      "date": "2003-06-28",
+      "date": "2018-10-22",
       "description": "cupiditate ullam"
     }
   ],
