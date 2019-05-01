@@ -1,5 +1,56 @@
 /******* RESPONSIVE *******/
 
+@media screen and (max-width: 1279px){
+  /****** TEAM *****/
+  .left .profiles div{
+    display: block;
+    width: 95%;
+  }
+  .left .profiles div:first-child, .left .profiles div:nth-child(2){
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .left .profiles div img{
+    margin-right: 20px;
+  }
+  /****** TO-DO LIST ******/
+  .container__horizontal{
+    display: block;
+  }
+  .width--70{
+    width: 90%;
+    margin: 0 5%;
+    border-right: none;
+  }
+  .container__horizontal h3, .container__horizontal .checkbox{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .container__horizontal h3{
+    width: 70%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1279px){
+  .computer li{
+    text-align: center;
+  }
+  .computer li span, .computer li:last-child span{
+    display: none;
+  }
+  .computer li img{
+    margin-right: 10px;
+    width: 30%;
+  }
+  .team .profiles button{
+    width: 50%;
+  }
+  .right{
+    width: 27%;
+  }
+}
+
 @media screen and (max-width: 800px){
   .computer, .user_bar, .sous-menu{
     display: none;
@@ -60,35 +111,6 @@
   }
   .content{
     margin: 0 auto;
-  }
-  /****** TEAM *****/
-  .left .profiles div{
-    display: block;
-    width: 95%;
-  }
-  .left .profiles div:first-child, .left .profiles div:nth-child(2){
-    margin-right: 0;
-    margin-bottom: 10px;
-  }
-  .left .profiles div img{
-    margin-right: 20px;
-  }
-  /****** TO-DO LIST ******/
-  .container__horizontal{
-    display: block;
-  }
-  .width--70{
-    width: 90%;
-    margin: 0 5%;
-    border-right: none;
-  }
-  .container__horizontal h3, .container__horizontal .checkbox{
-    display: inline-block;
-    vertical-align: middle;
-  }
-  .container__horizontal h3{
-    width: 70%;
-    margin-bottom: 1rem;
   }
 }
 
