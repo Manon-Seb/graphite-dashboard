@@ -16,7 +16,8 @@ const config = {
   entry: [
     path.resolve(__dirname, './src/index.js'),
     path.resolve(__dirname, './styles/app.css'),
-    path.resolve(__dirname, './styles/app-responsive.css')
+    path.resolve(__dirname, './styles/app-responsive.css'),
+    path.resolve(__dirname, './styles/calendar.css')
   ],
   devtool: 'source-map',
   output: {
