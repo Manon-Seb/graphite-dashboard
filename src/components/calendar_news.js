@@ -6,7 +6,7 @@ export default (state) => {
     <div class="right">
       <div class="calendar category">
         <h2>Calendrier</h2>
-        <img src="../../img/calendar_test.jpg" width="800" height="522.4" alt="calendrier test"/>
+        <div id="calendar" class="classic-theme orange"></div>
       </div>
       <div class="news category">
         <h2>Les dernières nouvelles</h2>
