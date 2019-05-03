@@ -1063,7 +1063,8 @@ let jsCalendar = (function () {
         // Set target
         options.target = calendars[i]
         // Create
-        JsCalendar(options)
+        /* eslint-disable no-new */
+        new JsCalendar(options)
       }
     }
   }
@@ -1217,7 +1218,7 @@ let jsCalendar = (function () {
   }
 
   // Default function to handle date-string parsing
-  JsCalendar._defaultDayStringParser = (function (key, day, lang) {
+  JsCalendar._defaultDayStringParser = function (key, day, lang) {
     switch (key) {
       case 'DAY':
       case 'day':
@@ -1231,7 +1232,8 @@ let jsCalendar = (function () {
       case 'D':
         return lang.days[day].substring(0, 1)
     }
-  })(function () { // Load any language on the load list
+  };
+  (function () { // Load any language on the load list
     // If a list exist
     if (typeof window.jsCalendar_language2load !== 'undefined') {
       // While list not empty

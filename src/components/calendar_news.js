@@ -6,7 +6,7 @@ export default (state) => {
     <div class="right">
       <div class="calendar category">
         <h2>Calendrier</h2>
-        <div id="calendar" class="classic-theme orange"></div>
+        <div id="calendar" class="auto-jsCalendar"></div>
       </div>
       <div class="news category">
         <h2>Les dernières nouvelles</h2>
