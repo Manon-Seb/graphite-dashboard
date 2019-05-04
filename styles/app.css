@@ -159,8 +159,9 @@ li{
   margin-left: 15%;
 }
 .content h1{
+  text-align: center;
   width: 100%;
-  margin: 20px 0;
+  margin: 80px 0 20px 0;
 }
 
 .user_bar{
@@ -169,7 +170,7 @@ li{
   text-align: right;
   width: 100%;
   height: 60px;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1;
 }
@@ -229,11 +230,18 @@ li{
 }
 
 /****** LEFT CONTENT ******/
-.team .profiles{
+.formation{
+  text-align: center;
+  margin-bottom: 0;
+}
+.formation span{
+  font-weight: bold;
+}
+.left .team .profiles{
   padding: 20px;
   text-align: center;
 }
-.team .profiles div{
+.left .team .profiles div{
   vertical-align: top;
   background-color: #F2F2F2;
   padding: 15px 10px;
@@ -241,26 +249,26 @@ li{
   width: 29.5%;
   text-align: justify;
 }
-.team .profiles div:first-child, .team .profiles div:nth-child(2){
+.left .team .profiles div:first-child, .left .team .profiles div:nth-child(2){
   margin-right: 5px;
 }
-.team .profiles div h3{
+.left .team .profiles div h3{
   margin: 5px 0;
 }
-.team .profiles div img{
+.left .team .profiles div img{
   border-radius: 50%;
   border: 1px solid #fff;
   margin-right: 10px;
   width: 20%;
 }
-.team div img, .team div h3{
+.left .team div img, .left .team div h3{
   display: inline-block;
   vertical-align: middle;
 }
-.team, .stats_members{
+.left .team, .stats_members{
   margin-bottom: 10px;
 }
-.team div p, h2{
+.left .team div p, h2{
   margin-top: 5px;
 }
 
@@ -296,7 +304,7 @@ li{
 .team .profiles button{
   width: 80%;
 }
-.team .profiles button, .news button{
+.team .profiles button, .news button, .all_members button{
   display: block;
   margin: 0 auto;
   padding: 5px 20px;
@@ -307,7 +315,7 @@ li{
   font-size: 1rem;
   box-shadow: none;
 }
-.team .profiles button:hover, .news button:hover, .button__add:hover{
+.team .profiles button:hover, .news button:hover, .button__add:hover, .all_members button:hover{
   cursor: pointer;
   background-color: #fff;
   color: #DC7D2F;

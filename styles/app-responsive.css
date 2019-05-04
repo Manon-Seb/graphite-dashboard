@@ -2,15 +2,18 @@
 
 @media screen and (max-width: 1279px){
   /****** TEAM *****/
-  .left .profiles div{
+  .left .profiles .formation{
+    text-align: center;
+  }
+  .left .team .profiles div{
     display: block;
     width: 95%;
   }
-  .left .profiles div:first-child, .left .profiles div:nth-child(2){
+  .left .team .profiles div:first-child, .left .team .profiles div:nth-child(2){
     margin-right: 0;
     margin-bottom: 10px;
   }
-  .left .profiles div img{
+  .left .team .profiles div img{
     margin-right: 20px;
   }
   /****** TO-DO LIST ******/
@@ -189,5 +192,9 @@
   }
   .news button, .button__add{
     width: 70%;
+  }
+  /****** Members page ******/
+  .members_page h1{
+    font-size: 2rem;
   }
 }

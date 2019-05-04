@@ -2,8 +2,7 @@ import { h } from 'hyperapp'
 import header from '../header'
 import header_mobile from '../header_mobile'
 import user_bar from '../user_bar'
-import left_content from '../about_members'
-import right_content from '../calendar_news'
+import allMembers from '../member/displayAllMembers'
 
 const display = (state, actions) => {
   if (state !== undefined) {
@@ -12,10 +11,9 @@ const display = (state, actions) => {
         {header(state.user, actions)}
         {header_mobile(state.user, actions)}
         {user_bar(state.user, actions)}
-        <div class="content">
-          <h1>Dashboard</h1>
-          {left_content(state, actions)}
-          {right_content(state, actions)}
+        <div class="content members_page">
+          <h1>Les membres de Graphite</h1>
+          {allMembers(state, actions)}
         </div>
       </main>
     )

@@ -1,0 +1,36 @@
+/****** MEMBERS PAGE ******/
+.members_page{
+  position: absolute;
+}
+.all_members{
+  width: 85%;
+  margin: 0 auto 20px auto;
+}
+.all_members button{
+  width: 60%;
+}
+.all_members h2{
+  margin-bottom: 5px;
+}
+.all_members div h3{
+  margin: 10px 0;
+}
+.all_members div p{
+  width: 90%;
+  margin: 0 auto 20px auto;
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.members_page .team > div, .members > div{
+  text-align: center;
+}
+.members_page .team div div, .members div div{
+  display: inline-block;
+  width: 32%;
+  vertical-align: top;
+  background-color: #E2E2E2;
+  margin: 0 2.5px 5px 2.5px;
+  padding-bottom: 20px;
+}
