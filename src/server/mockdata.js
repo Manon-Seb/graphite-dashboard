@@ -29,7 +29,7 @@ for(let i=0; i<=20; i++){
    let members = {};
    members.id = i;
    members.name = casual.first_name;
-   members.job = casual.random_element(['Illustrateur','BDéiste', "noveliste"]);
+   members.job = casual.random_element(['Illustrateur','BDéiste', 'noveliste']);
    members.subject = casual.words(1);
    members.age = casual.integer(20,25);
    members.description = casual.words(casual.integer(1,6));
