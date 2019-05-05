@@ -7,15 +7,11 @@ export default (state) => {
     <div class="all_members">
       <div class="team category">
         <h2>La team</h2>
-        <div>
-          {memberList(state.team)}
-        </div>
+        {memberList(state.team)}
       </div>
       <div class="members category">
         <h2>Les super membres</h2>
-        <div>
-          {memberList(state.members)}
-        </div>
+        {memberList(state.members)}
       </div>
     </div>
   )

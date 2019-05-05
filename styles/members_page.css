@@ -8,9 +8,11 @@
 }
 .all_members button{
   width: 60%;
+  margin-bottom: 20px;
 }
 .all_members h2{
   margin-bottom: 5px;
+  width: 100%;
 }
 .all_members div h3{
   margin: 10px 0;
@@ -19,14 +21,35 @@
   width: 90%;
   margin: 0 auto 20px auto;
   text-align: justify;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+}
+.members_page .formation{
+  text-align: center;
+}
+.members_page .team, .members_page .members{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .members_page .team > div, .members > div{
   text-align: center;
+  width: 33%;
+  background-color: #E2E2E2;
+  margin-bottom: 5px;
 }
 .members_page .team div div, .members div div{
   background-color: #E2E2E2;
   padding-bottom: 20px;
+}
+
+/****** RESPONSIVE ******/
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .members_page .team > div, .members > div{
+    width: 49.5%;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .members_page .team > div, .members > div{
+    width: 100%;
+  }
 }

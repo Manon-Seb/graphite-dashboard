@@ -7,9 +7,9 @@
       "id": 0,
       "name": "Léo DRAGUY",
       "job": "Président",
-      "subject": "ut",
-      "age": 24,
-      "description": "Excellent dessinateur menant l'association d'une main de fer.",
+      "subject": "IMAC",
+      "age": 22,
+      "description": "Excellent dessinateur menant l'association d'une main de fer (mais il est cool et passionné).",
       "drawingTechnique": "Traditionnelle et tablette",
       "publicationNb": 2
     },
@@ -17,17 +17,18 @@
       "id": 1,
       "name": "Anthony MAI",
       "job": "Vice-président",
-      "subject": "illo",
+      "subject": "Licence gestion des entreprises",
       "age": 20,
-      "description": "Il adore dormir mais il est toujours au rapport pour les réunions.",
+      "description": "Il adore dormir mais est toujours au rapport pour les réunions du moment qu'il a son quota de sommeil.",
       "drawingTechnique": "Traditionnelle",
-      "publicationNb": 5
+      "publicationNb": 5,
+      "displayFullProfile": false
     },
     {
       "id": 2,
       "name": "Hana TENDA",
       "job": "Trésorière",
-      "subject": "aut",
+      "subject": "Génie informatique",
       "age": 25,
       "description": "Sérieuse et consciencieuse, elle est la gardienne des trésor de l'association.",
       "drawingTechnique": "Tablette",
@@ -37,19 +38,22 @@
   "members": [
     {
       "id": 0,
-      "name": "Danyka",
-      "job": "Réalise les croquis des planches pour les BD.",
-      "subject": "accusantium",
+      "name": "Danyka BELLOT",
+      "job": "Croquis des planches de BD",
+      "subject": "Génie civil",
       "age": 21,
       "description": "Dessinant plus vite que son ombre, elle peut vous sortir le croquis de 10 planches de BD par heure, et encore plus si vous lui apportez un paquet de bonbon.",
       "drawingTechnique": "Traditionnelle",
-      "publicationNb": 2
+      "publicationNb": 2,
+      "action": {
+        "displayFullProfile": false
+      }
     },
     {
       "id": 1,
-      "name": "Brad",
+      "name": "Tony STARK",
       "job": "Character designer",
-      "subject": "et",
+      "subject": "Génie civil",
       "age": 22,
       "description": "Doté d'une imagination débordante, il adore créer des personnages de tous univers, avec une préférence pour le cyberpunk et tout ce qui est futuriste.",
       "drawingTechnique": "Traditionnelle et tablette",
@@ -57,9 +61,9 @@
     },
     {
       "id": 2,
-      "name": "Bradley",
+      "name": "Bradley DUONG",
       "job": "Création de décors",
-      "subject": "perferendis",
+      "subject": "Licence cinéma et audiovisuel",
       "age": 21,
       "description": "Membre spécialisé dans le dessin de paysages, en particulier de grandes villes au style futuriste. Il réalise ses croquis en technique tradtionnelle avant de toute passer sur ordinateur pour le line et la couleur.",
       "drawingTechnique": "Traditionnelle et tablette",
@@ -67,182 +71,182 @@
     },
     {
       "id": 3,
-      "name": "Berniece",
-      "job": "quae",
-      "subject": "dolores",
+      "name": "Izuku MIDORIYA",
+      "job": "Chargé de communication",
+      "subject": "Licence de communication",
       "age": 23,
-      "description": "quasi quibusdam eum",
+      "description": "Il s'occupe des réseaux sociaux de Graphite, de la diffusion des événements et coordonne les membres en charge de la création des affiches et flyers.",
       "drawingTechnique": "Tablette",
       "publicationNb": 1
     },
     {
       "id": 4,
-      "name": "Rene",
-      "job": "nihil",
-      "subject": "amet",
+      "name": "Alliah ISTAVION",
+      "job": "Graphiste",
+      "subject": "Etudes visuelles, multimédia et arts numériques",
       "age": 22,
-      "description": "non",
-      "drawingTechnique": "harum",
+      "description": "Dotée d'un grand sens esthétique, elle réalise les affiches et flyers pour la communication de l'association sous la direction d'Izuku.",
+      "drawingTechnique": "Tablette",
       "publicationNb": 4
     },
     {
       "id": 5,
-      "name": "Justen",
-      "job": "molestias",
-      "subject": "ducimus",
+      "name": "Justen CHEVALIER",
+      "job": "Senpai du dessin",
+      "subject": "Master science de l'image",
       "age": 24,
-      "description": "dolorem accusantium",
-      "drawingTechnique": "illo",
+      "description": "Dessinateur expérimenté ayant déjà travaillé sur plusieurs fanzines, il enseigne ses techniques secrètes aux dessinateurs en herbe.",
+      "drawingTechnique": "Traditionnelle",
       "publicationNb": 3
     },
     {
       "id": 6,
-      "name": "Cleo",
-      "job": "optio",
-      "subject": "qui",
+      "name": "Lou VASSIL",
+      "job": "Illustratrice d'événement",
+      "subject": "Etudes visuelles, multimédia et arts numériques",
       "age": 22,
-      "description": "recusandae nam et ea unde qui",
-      "drawingTechnique": "itaque",
+      "description": "Spécialisée dans le speed painting, elle réalise les bannières pour les événements ainsi que l'illustration de certains posts pour les réseaux sociaux.",
+      "drawingTechnique": "Traditionnelle et tablette",
       "publicationNb": 3
     },
     {
       "id": 7,
-      "name": "Elfrieda",
-      "job": "illo",
-      "subject": "quis",
+      "name": "Lisa CHULANONT",
+      "job": "Apprentie dessinatrice",
+      "subject": "IMAC",
       "age": 21,
-      "description": "itaque vel laudantium",
-      "drawingTechnique": "necessitatibus",
+      "description": "Dessinatrice en herbe cherchant à améliorer sa technique pour dessiner l'anatomie (en particulier les mains). Elle adore dessiner tout ce qui touche aà l'heroic fantasy.",
+      "drawingTechnique": "Traditionnelle",
       "publicationNb": 4
     },
     {
       "id": 8,
-      "name": "Abdiel",
-      "job": "et",
-      "subject": "dolores",
-      "age": 22,
-      "description": "velit",
-      "drawingTechnique": "qui",
+      "name": "Abel NIGHTROAD",
+      "job": "Le senpai de tout le monde",
+      "subject": "Master arts numériques et cultures visuelles",
+      "age": 24,
+      "description": "Membre le plus expérimenté ayant déjà collaboré sur des fanzines dans plusieurs associations, il est bon aussi bien pour dessiner des personnages que des décors ou encore des animaux.",
+      "drawingTechnique": "Traditionnelle et tablette",
       "publicationNb": 4
     },
     {
       "id": 9,
-      "name": "Zander",
-      "job": "adipisci",
-      "subject": "minima",
+      "name": "Xander LOMNICKI",
+      "job": "Dessinateur en herbe",
+      "subject": "Génie mécanique",
       "age": 21,
-      "description": "consequatur eligendi molestias quia",
-      "drawingTechnique": "blanditiis",
+      "description": "Doué pour dessiner des personnages, il cherche à améliorer ses techniques de colorisation ainsi qu'à maîtriser l'ombre et la lumière.",
+      "drawingTechnique": "Tablette",
       "publicationNb": 3
     },
     {
       "id": 10,
-      "name": "Zita",
-      "job": "rem",
-      "subject": "aut",
+      "name": "Zita CLUZEAU",
+      "job": "Apprentie dessinatrice",
+      "subject": "IMAC",
       "age": 24,
       "description": "id commodi velit",
-      "drawingTechnique": "quae",
+      "drawingTechnique": "Traditionnelle",
       "publicationNb": 5
     },
     {
       "id": 11,
-      "name": "Mayra",
-      "job": "harum",
-      "subject": "consequatur",
+      "name": "Mayra PRUVOST",
+      "job": "Apprentie dessinatrice",
+      "subject": "STAPS",
       "age": 24,
       "description": "saepe",
-      "drawingTechnique": "repellendus",
+      "drawingTechnique": "Traditionnelle",
       "publicationNb": 2
     },
     {
       "id": 12,
-      "name": "Mandy",
-      "job": "sed",
-      "subject": "minus",
+      "name": "Mandy BROWN",
+      "job": "Graphiste",
+      "subject": "IMAC",
       "age": 25,
-      "description": "impedit molestias maxime corporis ad",
-      "drawingTechnique": "exercitationem",
+      "description": "Son stype de dessin authentique et son sens de l'humour créent des affiches et des flyers décalés. Elle réalise également des affiches et des flyers sous la direction d'Izuku.",
+      "drawingTechnique": "Tablette",
       "publicationNb": 4
     },
     {
       "id": 13,
-      "name": "Alphonso",
-      "job": "aut",
-      "subject": "vero",
+      "name": "Alphonso MANOLOVITCH",
+      "job": "Créateur de mechas",
+      "subject": "Electronique et informatique - Systèmes communicants",
       "age": 21,
-      "description": "repellendus id eum",
-      "drawingTechnique": "molestiae",
+      "description": "Passionné par Gundam, Goldorak et Code Geass, il adore dessiner des machines et des mechas avec un sens du détail surprenant.",
+      "drawingTechnique": "Traditionnelle et tablette",
       "publicationNb": 4
     },
     {
       "id": 14,
-      "name": "Murl",
-      "job": "quibusdam",
-      "subject": "repellendus",
-      "age": 24,
-      "description": "fugiat velit",
-      "drawingTechnique": "libero",
+      "name": "Murl ZADI",
+      "job": "Secrétaire",
+      "subject": "Génie informatique",
+      "age": 23,
+      "description": "Besoin d'une info ? Passez par lui ! Il sait tout de l'association, tout des événements, tout des ateliers et tout des membres (ou presque).",
+      "drawingTechnique": "J'écris mieux que je ne dessine (#Murl)",
       "publicationNb": 5
     },
     {
       "id": 15,
-      "name": "Josiah",
-      "job": "reiciendis",
-      "subject": "assumenda",
+      "name": "Paul KAELBLEN",
+      "job": "Apprenti dessinateur",
+      "subject": "Génie informatique",
       "age": 21,
-      "description": "ullam aliquam quae error",
-      "drawingTechnique": "dolor",
+      "description": "Son passe temps favori : gribouiller sur ses cahiers pendant les cours. Mais il est temps de passer aux choses sérieuses et de faire des dessins de plus grandes envergures !",
+      "drawingTechnique": "Traditionnelle",
       "publicationNb": 2
     },
     {
       "id": 16,
-      "name": "Arno",
-      "job": "officiis",
-      "subject": "dolore",
+      "name": "Adrien MENAUD",
+      "job": "Apprenti dessinateur",
+      "subject": "IMAC",
       "age": 22,
-      "description": "sed quaerat et accusamus",
-      "drawingTechnique": "temporibus",
+      "description": "Il a les bases aussi bien pour l'anatomie que pour les décors. Il cherche à améliorer sa technique et à s'initier à la colorisation.",
+      "drawingTechnique": "Tablette",
       "publicationNb": 4
     },
     {
       "id": 17,
-      "name": "Sheldon",
-      "job": "perferendis",
+      "name": "Elisa MILLET",
+      "job": "Apprentie dessinatrice",
       "subject": "necessitatibus",
       "age": 24,
-      "description": "vitae rerum officia atque enim",
-      "drawingTechnique": "voluptatem",
+      "description": "Ayant débuté le dessin il y a peu, elle cherche à renforcer ses bases en dessin avant de tenter des choses plus complexes. Elle a un goût très prononcé pour les looks un peu extravagants et flashy.",
+      "drawingTechnique": "Traditionnelle",
       "publicationNb": 4
     },
     {
       "id": 18,
-      "name": "Monte",
-      "job": "est",
-      "subject": "tempora",
+      "name": "Alm DE VALENTIA",
+      "job": "Character designer",
+      "subject": "IMAC",
       "age": 20,
-      "description": "architecto consequatur quia eos voluptas",
-      "drawingTechnique": "nobis",
+      "description": "Passionné d'heroic fantasy, il adore créer des personnages en armure et toutes sortes d'armes (épée, lance, arc...).",
+      "drawingTechnique": "Traditionnelle et tablette",
       "publicationNb": 3
     },
     {
       "id": 19,
-      "name": "Brandt",
-      "job": "alias",
-      "subject": "et",
+      "name": "Oswald FINLEY",
+      "job": "Apprenti dessinateur",
+      "subject": "Génie mécanique",
       "age": 24,
-      "description": "sit est",
-      "drawingTechnique": "ut",
+      "description": "Il adore créer de petites BD (yonkomas) pour raconter son quotidien. Il est très doué pour dessiner les personnages en version chibi mais il aimerait également s'améliorer avec une anatomie 'normale'.",
+      "drawingTechnique": "Tablette",
       "publicationNb": 1
     },
     {
       "id": 20,
-      "name": "Raleigh",
-      "job": "soluta",
-      "subject": "omnis",
+      "name": "Raleigh PARKER",
+      "job": "Dessinateur en herbe",
+      "subject": "IMAC",
       "age": 23,
-      "description": "ut et eligendi unde et",
-      "drawingTechnique": "repellendus",
+      "description": "Ne jurant que par son crayon gris, il peut passer des heures à dessiner sans s'arrêter. Il souhaiterait apprendre à dessiner des décors ainsi que des véhicules comme des voitures.",
+      "drawingTechnique": "Tradtionnelle",
       "publicationNb": 4
     }
   ],
@@ -282,8 +286,8 @@
     {
       "id": 0,
       "idMember": 2,
-      "tasks": "Préparer la note de réunion pour la Festival Pulp",
-      "dueDate": "2019-04-06",
+      "tasks": "quis repellendus molestiae fugit ipsa numquam rerum",
+      "dueDate": "1998-08-06",
       "category": "reunion",
       "description": "quia sint architecto necessitatibus inventore fugit omnis consectetur quis perspiciatis aut et voluptatem dolor quibusdam praesentium ipsam voluptatem velit porro voluptas",
       "action": {
@@ -295,8 +299,8 @@
     {
       "id": 1,
       "idMember": 2,
-      "tasks": "Impression des affiches du Festival Pulp",
-      "dueDate": "2019-03-20",
+      "tasks": "iusto ut similique ullam non modi omnis",
+      "dueDate": "1971-03-28",
       "category": "communication",
       "description": "iste officiis eum aut voluptatum velit officia fugit pariatur a ut aliquam eligendi libero necessitatibus",
       "action": {
@@ -308,8 +312,8 @@
     {
       "id": 2,
       "idMember": 21,
-      "tasks": "Rédaction du compte-rendu de la réunion du 10/03/2019",
-      "dueDate": "2019-03-12",
+      "tasks": "voluptas quae quia quis rerum velit",
+      "dueDate": "1985-10-09",
       "category": "reunion",
       "description": "atque ut qui blanditiis eum officia consequuntur harum aspernatur aut doloribus qui delectus quos autem optio",
       "action": {
@@ -347,8 +351,8 @@
     {
       "id": 5,
       "idMember": 4,
-      "tasks": "Maquette finale du fanzine",
-      "dueDate": "2019-03-06",
+      "tasks": "sed et quam odit",
+      "dueDate": "1971-09-21",
       "category": "fanzine",
       "description": "iste et accusantium aspernatur aut voluptatem voluptatibus consectetur vel temporibus et labore iusto",
       "action": {
@@ -428,67 +432,100 @@
       "id": 0,
       "name": "Recrutement équipe 2020",
       "date": "2019-05-01",
-      "description": "Graphite recherche de nouveaux dessinateurs pour intégrer l'équipe de 2020 ! Séances créatives, bonne humeur et partage sont au rendez-vous !"
+      "category": "equipe",
+      "description": "Graphite recherche de nouveaux dessinateurs pour intégrer l'équipe de 2020 ! Séances créatives, bonne humeur et partage sont au rendez-vous !",
+      "fullDescription": "Comme chaque année, des membres nous quittent pour de nouveaux horizons mais nous, nous ne nous arrêtons pas ! C'est pourquoi Graphite fait appel à vous ! Nous recrutons de nouveaux dessinateurs, débutant ou confirmé, peu importe votre technique de dessins. Les possibilités de posts et d'activités sont nombreuses : senpai, kohai, graphiste pour la communication de l'association, organisation d'atelier... Il y a de quoi libérer le dessinateur qui sommeille en vous ! Si vous êtes intéressés, vous pouvez nous envoyer un mail ou venir directement à notre local situé dans le bâtiment Copernic.",
+      "img": "../../img/staff.jpg"
     },
     {
       "id": 1,
       "name": "Festival Pulp édition 2020",
       "date": "2019-04-06",
-      "description": "Le festival Pulp vient à peine de se terminer que nous préparons la prochaine édition. Notez dès à présent les dates : du 3 à 5 avril 2020 !"
+      "category": "evenement",
+      "description": "Le festival Pulp vient à peine de se terminer que nous préparons la prochaine édition. Notez dès à présent les dates : du 3 à 5 avril 2020 !",
+      "fullDescription": "Après une superbe seconde édition, Graphite vous donne rendez-vous en 2020 du 3 au 5 avril à la Ferme du Buisson. Attendez-vous à plus de contenus, plus d'activités et plus d'exclusivités ! A noter que nous recruterons sous peu de nouveaux membres pour participer à cette fabuleuse aventure.",
+      "img": "../../img/fire_emblem.jpg"
     },
     {
       "id": 2,
       "name": "Dernière ligne droite avant le festival Pulp",
       "date": "2019-03-20",
-      "description": "Le festival Pulp approche à grands pas ! Venez découvrir nos artistes et leur fanzine les 6 et 7 avril prochain !"
+      "category": "evenement",
+      "description": "Le festival Pulp approche à grands pas ! Venez découvrir nos artistes et leur fanzine les 6 et 7 avril prochain !",
+      "fullDescription": "Plus que 2 semaines avant le lancement de la seconde édition du festival Pulp ! Si vous n'avez rien précu les 6 et 7 avril, pensez à faire un détour par la Ferme du Buisson ! Nous vous réservons plein de surprises sur notre stand.",
+      "img": "../../img/fire_emblem.jpg"
     },
     {
       "id": 3,
       "name": "Programme du festival Pulp",
       "date": "2019-02-19",
-      "description": "Le programme du festival est en ligne ! Animations, échanges, ateliers, nous vous avons concocté plein d'activités !"
+      "category": "evenement",
+      "description": "Le programme du festival est en ligne ! Animations, échanges, ateliers, nous vous avons concocté plein d'activités !",
+      "fullDescription": "Vous l'attendiez ? Le voici ! Le programme du festival Pulp ! De nombreuses activités sont à prévoir durant 2 jours de folie. N'oubliez pas que vous pourrez retirer sur notre stand le second numéro de notre fanzine (et le premier également pour les retardataires). Le programme est disponible en PDF sur notre page Facebook ainsi que notre site web !",
+      "img": "../../img/staff.jpg"
     },
     {
       "id": 4,
-      "name": "quia non",
+      "name": "Atelier : character design",
       "date": "2019-02-10",
-      "description": "aut sapiente facere tempora"
+      "category": "atelier",
+      "description": "Graphite vous propose le 20 février prochain un atelier dédié à la création de personnages et de leurs designs.",
+      "fullDescription": "Vous avez toujours eu envie de donner vie aux personnages de vos rêves mais vous avez du mal à les dessiner et les habiller ? Alors cet atelier est fait pour vous ! En compagnie de nos adorés Tony et Justen, venez donner vie à vos personnages, qu'ils soient d'heroic fantasy, du futur, de la vie de tous les jours... tout y passe ! L'atelier aura lieu bâtiment Copernic dans la salle 1B040 le jeudi 22 février de 14h à 16h. Si vous êtes intéressés, merci de vous inscrire via le formulaire Google qui suit.",
+      "img": "../../img/character_design.jpg"
     },
     {
       "id": 5,
-      "name": "explicabo et ullam sint",
+      "name": "Atelier : les bases de l'anatomie",
       "date": "2019-01-04",
-      "description": "architecto ab aut dolor nam"
+      "category": "atelier",
+      "description": "Vous voulez dessiner vos personnages mais vous galérez ? Cet atelier est fait pour vous !",
+      "fullDescription": "Dessiner des personnages bien proportionnés n'est pas votre fort ? Justen à votre rescousse ! Pour bien débuter l'année, nous vous proposons un premier atelier destiné aux bases de l'anatomie. Dessin d'un visage, d'un corps, des mains... Justen vous prépare un atelier sur mesure, peu importe votre niveau ! L'atelier aura lieu le 11 janvier prochain de 14h à 16h, salle 1B040 dans le bâtiment Copernic. Si vous êtes intéressés, merci de vous inscrire via le formulaire Google qui suit.",
+      "img": "../../img/character_design.jpg"
     },
     {
       "id": 6,
-      "name": "voluptatem aut",
+      "name": "Graphite vous souhaite un joyeux réveillon !",
       "date": "2018-12-31",
-      "description": "labore"
+      "category": "autre",
+      "description": "labore",
+      "fullDescription": "2018 s'achève et 2019 arrive à grands pas. Quelles sont résolutions pour la nouvelle année qui s'annonce ?",
+      "img": "../../img/fire_emblem.jpg"
     },
     {
       "id": 7,
-      "name": "adipisci delectus eum dicta et",
+      "name": "Joyeuses fêtes !",
       "date": "2018-12-18",
-      "description": "dolore et voluptatum praesentium"
+      "category": "autre",
+      "description": "dolore et voluptatum praesentium",
+      "fullDescription": "Les vacances sont enfin là !",
+      "img": "../../img/fire_emblem.jpg"
     },
     {
       "id": 8,
-      "name": "dolores quis cum vitae non",
+      "name": "Concours de dessin spécial Noël",
       "date": "2018-12-01",
-      "description": "ducimus quidem"
+      "category": "evenement",
+      "description": "ducimus quidem",
+      "fullDescription": "Pour la première fois, Graphite vous propose un concours de dessin !",
+      "img": "../../img/fire_emblem.jpg"
     },
     {
       "id": 9,
       "name": "tempore recusandae expedita deleniti",
       "date": "2018-10-31",
-      "description": "et voluptate consequatur itaque"
+      "category": "autre",
+      "description": "et voluptate consequatur itaque",
+      "fullDescription": "et voluptate consequatur itaque",
+      "img": "../../img/fire_emblem.jpg"
     },
     {
       "id": 10,
       "name": "quae unde qui amet",
       "date": "2018-10-22",
-      "description": "cupiditate ullam"
+      "category": "equipe",
+      "description": "cupiditate ullam",
+      "fullDescription": "et voluptate consequatur itaque",
+      "img": "../../img/fire_emblem.jpg"
     }
   ],
   "userAction": {

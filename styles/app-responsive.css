@@ -106,7 +106,7 @@
     width: 15%;
     height: 40px;
     margin: 0 25%;
-    background-image: url({../img/Logo_small.jpg});
+    background-image: url(../img/Logo_small.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
