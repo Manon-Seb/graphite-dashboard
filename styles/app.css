@@ -631,3 +631,8 @@ input[type=button]:hover{
 .space-between {
   justify-content: space-between;
 }
+
+.stat__right {
+    margin: auto;
+    width: 100%;
+}

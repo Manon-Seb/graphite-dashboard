@@ -1,7 +1,7 @@
 let casual = require('casual');
 
 // Create an object for config file
-let db = {update:[true],team:[],members:[],events:[],tasks:[],news:[],
+let db = {update:[true],team:[],members:[],events:[],tasks:[],news:[],fanzines:[],
   userAction:{task:
     { displayPopUp: false,
       taskName:'',
@@ -21,7 +21,7 @@ for (let i=0; i<3; i++){
   team.subject = casual.words(1);
   team.age = casual.integer(20,25);
   team.description = casual.words(casual.integer(1,6));
-  team.drawingTechnique = casual.words(1);
+  team.drawingTechnique = casual.random_element(['traditionnelle','digitale']);
   team.publicationNb = casual.integer(1,5);
   db.team.push(team);
 }
@@ -29,12 +29,13 @@ for(let i=0; i<=20; i++){
    let members = {};
    members.id = i;
    members.name = casual.first_name;
-   members.job = casual.words(1);
+   members.job = casual.random_element(['Illustrateur','BDéiste', "noveliste"]);
    members.subject = casual.words(1);
    members.age = casual.integer(20,25);
    members.description = casual.words(casual.integer(1,6));
-   members.drawingTechnique = casual.words(1);
+   members.drawingTechnique = casual.random_element(['traditionnelle','digitale']);
    members.publicationNb = casual.integer(1,5);
+   members.year = casual.random_element([2017,2018,2019]);
    db.members.push(members);
 }
 
@@ -71,6 +72,21 @@ for(let i=0; i<=5; i++){
   events.place = casual.place;
   events.description = casual.words(casual.integer(10,20))
   db.events.push(events);
+}
+
+for(let i = 0; i<4; i++){
+  let fanzine = {};
+  fanzine.year = 2018 + i;
+  fanzine.nbBD = casual.integer(5,10);
+  fanzine.nbIllustration = casual.integer(5,10);
+  fanzine.guest = casual.integer(10,20);
+  if ((2018 + i) < 2020) {
+    fanzine.vente = casual.integer (20, 100);
+  }
+  else {
+    fanzine.vente = undefined;
+  }
+  db.fanzines.push(fanzine);
 }
 
 console.log(JSON.stringify(db));
