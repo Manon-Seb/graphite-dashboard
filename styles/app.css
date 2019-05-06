@@ -32,6 +32,7 @@ button {
   border: none;
   font-size: 2rem;
   height: 3rem;
+  cursor: pointer;
 }
 
 h1 {
@@ -529,6 +530,7 @@ input[type=button]:hover{
   margin-bottom: 3vh;
   margin-right: 1vh;
   margin-left: 1vh;
+  cursor: pointer;
 }
 
 .content--center {

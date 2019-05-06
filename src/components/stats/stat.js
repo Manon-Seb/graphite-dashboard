@@ -48,6 +48,21 @@ const pieChart = (props) => {
           labels: props.label
         },
         options: {
+          segmentShowStroke: true,
+          //String - The colour of each segment stroke
+          segmentStrokeColor: "#fff",
+          //Number - The width of each segment stroke
+          segmentStrokeWidth: 2,
+          //Number - The percentage of the chart that we cut out of the middle
+          percentageInnerCutout: 0, // This is 0 for Pie charts
+          //Number - Amount of animation steps
+          animationSteps: 100,
+          //String - Animation easing effect
+          animationEasing: "easeOutBounce",
+          //Boolean - Whether we animate the rotation of the Doughnut
+          animateRotate: true,
+          //Boolean - Whether we animate scaling the Doughnut from the centre
+          animateScale: false,
           title: {
             display: true,
             text: props.title
@@ -75,7 +90,11 @@ const lineChart = (props) => {
           // These labels appear in the legend and in the tooltips when hovering different arcs
           labels: props.label
         },
-        options: {}
+        options: {
+          animation: {
+            easing: 'easeInOutSine'
+          }
+        }
       })
     }
   })
@@ -127,6 +146,9 @@ const barChart = (props) => {
           labels: props.label
         },
         options: {
+          animation: {
+            easing: 'linear'
+          },
           scales: {
             yAxes: [{
               ticks: {
