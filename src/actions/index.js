@@ -145,6 +145,13 @@ export default {
     return (
       JSON.parse(JSON.stringify(require('../server/db.json')))
     )
+  },
+  /* NEWS */
+  newsCategoryIsClick: (nb) => (state) => {
+    if (nb === 1) return {...state, userAction: {...state.userAction, news: {...state.userAction.news, equipe: !state.userAction.news.equipe}}}
+    if (nb === 2) return {...state, userAction: {...state.userAction, news: {...state.userAction.news, evenement: !state.userAction.news.evenement}}}
+    if (nb === 3) return {...state, userAction: {...state.userAction, news: {...state.userAction.news, atelier: !state.userAction.news.atelier}}}
+    if (nb === 4) return {...state, userAction: {...state.userAction, news: {...state.userAction.news, autre: !state.userAction.news.autre}}}
   }
 }
 
