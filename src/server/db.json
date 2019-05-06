@@ -1,1 +1,542 @@
-{"update":[true],"team":[{"id":0,"name":"Lucie","job":"et","subject":"inventore","age":21,"description":"perferendis repudiandae incidunt sed nihil","drawingTechnique":"traditionnelle","publicationNb":3},{"id":1,"name":"Damian","job":"fugit","subject":"ratione","age":24,"description":"sequi facilis amet autem at nihil","drawingTechnique":"traditionnelle","publicationNb":3},{"id":2,"name":"Sheila","job":"suscipit","subject":"fugiat","age":25,"description":"nostrum molestiae maiores","drawingTechnique":"traditionnelle","publicationNb":5}],"members":[{"id":0,"name":"Violet","job":"BDéiste","subject":"qui","age":25,"description":"vitae cumque","drawingTechnique":"traditionnelle","publicationNb":2,"year":2019},{"id":1,"name":"Aniya","job":"noveliste","subject":"deleniti","age":25,"description":"animi autem libero fugiat","drawingTechnique":"digitale","publicationNb":1,"year":2017},{"id":2,"name":"Concepcion","job":"BDéiste","subject":"dolorum","age":20,"description":"et possimus","drawingTechnique":"digitale","publicationNb":2,"year":2018},{"id":3,"name":"Ayana","job":"BDéiste","subject":"quos","age":23,"description":"consequatur sed qui","drawingTechnique":"digitale","publicationNb":3,"year":2017},{"id":4,"name":"Alexane","job":"BDéiste","subject":"debitis","age":22,"description":"sunt error molestiae ullam","drawingTechnique":"digitale","publicationNb":1,"year":2018},{"id":5,"name":"Mireya","job":"BDéiste","subject":"voluptatem","age":21,"description":"omnis unde laudantium est","drawingTechnique":"digitale","publicationNb":3,"year":2019},{"id":6,"name":"Destiny","job":"BDéiste","subject":"earum","age":24,"description":"aut quos occaecati","drawingTechnique":"digitale","publicationNb":2,"year":2019},{"id":7,"name":"Graciela","job":"BDéiste","subject":"optio","age":24,"description":"est sed","drawingTechnique":"digitale","publicationNb":2,"year":2018},{"id":8,"name":"Taurean","job":"Illustrateur","subject":"totam","age":21,"description":"expedita","drawingTechnique":"digitale","publicationNb":4,"year":2019},{"id":9,"name":"Dillon","job":"BDéiste","subject":"reiciendis","age":23,"description":"magni","drawingTechnique":"traditionnelle","publicationNb":5,"year":2018},{"id":10,"name":"Haleigh","job":"noveliste","subject":"similique","age":25,"description":"et voluptatum distinctio minus ullam","drawingTechnique":"traditionnelle","publicationNb":1,"year":2018},{"id":11,"name":"Albina","job":"noveliste","subject":"dolores","age":25,"description":"fugit necessitatibus tenetur ipsam","drawingTechnique":"traditionnelle","publicationNb":2,"year":2018},{"id":12,"name":"Jennifer","job":"BDéiste","subject":"reiciendis","age":21,"description":"omnis voluptatibus eos et","drawingTechnique":"traditionnelle","publicationNb":3,"year":2018},{"id":13,"name":"Dustin","job":"Illustrateur","subject":"voluptate","age":21,"description":"qui velit","drawingTechnique":"digitale","publicationNb":4,"year":2019},{"id":14,"name":"Asia","job":"BDéiste","subject":"quod","age":23,"description":"ea","drawingTechnique":"digitale","publicationNb":4,"year":2018},{"id":15,"name":"Reva","job":"BDéiste","subject":"in","age":25,"description":"quis magni et saepe","drawingTechnique":"traditionnelle","publicationNb":5,"year":2017},{"id":16,"name":"Al","job":"Illustrateur","subject":"temporibus","age":20,"description":"et dolores distinctio voluptate quam","drawingTechnique":"digitale","publicationNb":3,"year":2018},{"id":17,"name":"Cordia","job":"noveliste","subject":"aut","age":25,"description":"id qui","drawingTechnique":"traditionnelle","publicationNb":3,"year":2019},{"id":18,"name":"Marcus","job":"BDéiste","subject":"nihil","age":20,"description":"fuga et culpa occaecati voluptas sed","drawingTechnique":"digitale","publicationNb":1,"year":2019},{"id":19,"name":"Leora","job":"Illustrateur","subject":"quis","age":21,"description":"eum itaque","drawingTechnique":"traditionnelle","publicationNb":1,"year":2019},{"id":20,"name":"Willy","job":"BDéiste","subject":"sunt","age":22,"description":"tenetur culpa blanditiis perferendis velit","drawingTechnique":"digitale","publicationNb":5,"year":2018}],"events":[{"id":0,"name":"consequatur cum esse ut voluptatem eveniet id","description":"error voluptates cumque aliquid dolore sed laudantium est nam numquam"},{"id":1,"name":"unde est omnis incidunt dolorem","description":"ratione sit et omnis ea et ullam qui et quo ab velit nam commodi possimus perferendis tenetur iste aperiam eveniet"},{"id":2,"name":"reprehenderit sit cum distinctio voluptatem illum a similique ipsa","description":"est animi non quo blanditiis nihil ducimus eveniet maxime quibusdam nemo aut"},{"id":3,"name":"non corporis ut vel","description":"maxime quas atque quia neque qui occaecati facere vel ut pariatur"},{"id":4,"name":"nihil molestias quaerat amet ipsum assumenda corporis","description":"corporis quo asperiores ut quam facere aut quo qui distinctio accusantium perferendis aut perferendis officia"},{"id":5,"name":"cupiditate omnis dolorem blanditiis in","description":"harum asperiores praesentium est et corrupti aut similique perspiciatis numquam"}],"tasks":[{"id":0,"idMember":18,"tasks":"magni vitae et illo quas sunt","dueDate":"2001-02-09","category":"reunion","description":"quis temporibus optio corrupti et qui sed officiis sapiente ut aspernatur doloribus deleniti ut ab","action":{"displayDescription":false,"displayPopUp":false},"isDone":false},{"id":1,"idMember":16,"tasks":"quia et at nesciunt vel","dueDate":"1997-07-14","category":"communication","description":"quo quae tempore itaque porro accusamus et quibusdam minima voluptas et sint sit itaque sit sequi quis","action":{"displayDescription":false,"displayPopUp":false},"isDone":true},{"id":2,"idMember":6,"tasks":"ut deleniti quo incidunt perspiciatis","dueDate":"1980-04-16","category":"fanzine","description":"et culpa est cupiditate pariatur sapiente rerum voluptas aut velit accusantium ab illum nisi est officiis tempore omnis earum asperiores","action":{"displayDescription":false,"displayPopUp":false},"isDone":false},{"id":3,"idMember":14,"tasks":"libero qui ut nesciunt aut eos aliquid","dueDate":"2004-11-06","category":"communication","description":"fugit eaque molestias quis quia id ut nisi quae sint sint labore voluptas modi dolore dignissimos praesentium ut","action":{"displayDescription":false,"displayPopUp":false},"isDone":false},{"id":4,"idMember":14,"tasks":"aliquid repellat et laboriosam incidunt quia qui","dueDate":"1997-11-26","category":"fanzine","description":"dolorem impedit accusamus architecto qui et eveniet cupiditate ad ut aut alias aperiam reprehenderit eius","action":{"displayDescription":false,"displayPopUp":false},"isDone":false},{"id":5,"idMember":20,"tasks":"nam fuga placeat non aspernatur vero sit iure","dueDate":"1997-03-30","category":"communication","description":"sunt ea incidunt placeat laboriosam totam quia consequatur eligendi laborum veniam est doloribus aspernatur magnam ut voluptatibus non sit sint dolorem et asperiores quam animi","action":{"displayDescription":false,"displayPopUp":false},"isDone":false},{"id":6,"idMember":11,"tasks":"dolorem et tempore possimus quod fugiat","dueDate":"2001-07-15","category":"reunion","description":"accusamus iusto maxime ipsa non nostrum et et consequatur in","action":{"displayDescription":false,"displayPopUp":false},"isDone":true},{"id":7,"idMember":5,"tasks":"voluptas ratione qui iusto eaque ab","dueDate":"2015-01-15","category":"fanzine","description":"harum quibusdam itaque et esse dolorum placeat quisquam veniam voluptas amet culpa tenetur beatae","action":{"displayDescription":false,"displayPopUp":false},"isDone":true},{"id":8,"idMember":10,"tasks":"dolore corporis eos soluta maiores placeat aut","dueDate":"1977-07-07","category":"reunion","description":"occaecati et occaecati sed maxime sunt qui sed quae totam voluptate omnis deleniti illum autem eius aut sit","action":{"displayDescription":false,"displayPopUp":false},"isDone":false},{"id":9,"idMember":20,"tasks":"molestiae recusandae odio assumenda aperiam","dueDate":"1993-04-05","category":"fanzine","description":"deserunt iusto sit nam nihil voluptate aut modi quasi expedita","action":{"displayDescription":false,"displayPopUp":false},"isDone":true},{"id":10,"idMember":8,"tasks":"quia ex qui quo doloribus dolores","dueDate":"1977-09-18","category":"communication","description":"maxime nulla iste voluptatem minima sunt doloremque corrupti temporibus totam assumenda quaerat vitae officia rerum iure ut quia et id similique debitis","action":{"displayDescription":false,"displayPopUp":false},"isDone":true}],"news":[{"id":0,"name":"dicta quia sapiente","date":"1989-09-23","description":"repudiandae reprehenderit nobis"},{"id":1,"name":"error et id voluptatem","date":"2009-01-22","description":"ut id distinctio illo qui"},{"id":2,"name":"ex perspiciatis repudiandae numquam architecto","date":"1981-07-29","description":"fugiat rerum omnis deserunt dignissimos"},{"id":3,"name":"magnam sed doloribus","date":"1981-09-11","description":"inventore quasi et omnis"},{"id":4,"name":"adipisci molestiae","date":"1984-01-23","description":"ab dolor error doloremque a"},{"id":5,"name":"et deleniti et sint","date":"1992-01-30","description":"recusandae aspernatur quasi"},{"id":6,"name":"totam architecto expedita exercitationem consequatur","date":"1979-06-17","description":"nemo voluptatem deleniti"},{"id":7,"name":"esse dolore","date":"1974-03-16","description":"tenetur facere"},{"id":8,"name":"ea enim","date":"2009-09-10","description":"tempora quae fuga dolorem"},{"id":9,"name":"vitae vel est","date":"1981-12-08","description":"quis commodi similique ducimus nostrum"},{"id":10,"name":"iure nostrum similique","date":"1977-07-23","description":"ratione voluptatem itaque"}],"fanzines":[{"year":2018,"nbBD":7,"nbIllustration":10,"guest":18,"vente":24},{"year":2019,"nbBD":6,"nbIllustration":9,"guest":13,"vente":43},{"year":2020,"nbBD":6,"nbIllustration":6,"guest":19},{"year":2021,"nbBD":6,"nbIllustration":8,"guest":17}],"userAction":{"task":{"displayPopUp":false,"taskName":"","taskDescription":"","taskDate":"","taskCategory":"none","communication":false,"fanzine":false,"reunion":false}}}
+{
+  "update": [
+    true
+  ],
+  "team": [
+    {
+      "id": 0,
+      "name": "Lucie",
+      "job": "et",
+      "subject": "inventore",
+      "age": 21,
+      "description": "perferendis repudiandae incidunt sed nihil",
+      "drawingTechnique": "traditionnelle",
+      "publicationNb": 3
+    },
+    {
+      "id": 1,
+      "name": "Damian",
+      "job": "fugit",
+      "subject": "ratione",
+      "age": 24,
+      "description": "sequi facilis amet autem at nihil",
+      "drawingTechnique": "traditionnelle",
+      "publicationNb": 3
+    },
+    {
+      "id": 2,
+      "name": "Sheila",
+      "job": "suscipit",
+      "subject": "fugiat",
+      "age": 25,
+      "description": "nostrum molestiae maiores",
+      "drawingTechnique": "traditionnelle",
+      "publicationNb": 5
+    }
+  ],
+  "members": [
+    {
+      "id": 0,
+      "name": "Violet",
+      "job": "BDéiste",
+      "subject": "qui",
+      "age": 25,
+      "description": "vitae cumque",
+      "drawingTechnique": "traditionnelle",
+      "publicationNb": 2,
+      "year": 2019
+    },
+    {
+      "id": 1,
+      "name": "Aniya",
+      "job": "noveliste",
+      "subject": "deleniti",
+      "age": 25,
+      "description": "animi autem libero fugiat",
+      "drawingTechnique": "digitale",
+      "publicationNb": 1,
+      "year": 2017
+    },
+    {
+      "id": 2,
+      "name": "Concepcion",
+      "job": "BDéiste",
+      "subject": "dolorum",
+      "age": 20,
+      "description": "et possimus",
+      "drawingTechnique": "digitale",
+      "publicationNb": 2,
+      "year": 2018
+    },
+    {
+      "id": 3,
+      "name": "Ayana",
+      "job": "BDéiste",
+      "subject": "quos",
+      "age": 23,
+      "description": "consequatur sed qui",
+      "drawingTechnique": "digitale",
+      "publicationNb": 3,
+      "year": 2017
+    },
+    {
+      "id": 4,
+      "name": "Alexane",
+      "job": "BDéiste",
+      "subject": "debitis",
+      "age": 22,
+      "description": "sunt error molestiae ullam",
+      "drawingTechnique": "digitale",
+      "publicationNb": 1,
+      "year": 2018
+    },
+    {
+      "id": 5,
+      "name": "Mireya",
+      "job": "BDéiste",
+      "subject": "voluptatem",
+      "age": 21,
+      "description": "omnis unde laudantium est",
+      "drawingTechnique": "digitale",
+      "publicationNb": 3,
+      "year": 2019
+    },
+    {
+      "id": 6,
+      "name": "Destiny",
+      "job": "BDéiste",
+      "subject": "earum",
+      "age": 24,
+      "description": "aut quos occaecati",
+      "drawingTechnique": "digitale",
+      "publicationNb": 2,
+      "year": 2019
+    },
+    {
+      "id": 7,
+      "name": "Graciela",
+      "job": "BDéiste",
+      "subject": "optio",
+      "age": 24,
+      "description": "est sed",
+      "drawingTechnique": "digitale",
+      "publicationNb": 2,
+      "year": 2018
+    },
+    {
+      "id": 8,
+      "name": "Taurean",
+      "job": "Illustrateur",
+      "subject": "totam",
+      "age": 21,
+      "description": "expedita",
+      "drawingTechnique": "digitale",
+      "publicationNb": 4,
+      "year": 2019
+    },
+    {
+      "id": 9,
+      "name": "Dillon",
+      "job": "BDéiste",
+      "subject": "reiciendis",
+      "age": 23,
+      "description": "magni",
+      "drawingTechnique": "traditionnelle",
+      "publicationNb": 5,
+      "year": 2018
+    },
+    {
+      "id": 10,
+      "name": "Haleigh",
+      "job": "noveliste",
+      "subject": "similique",
+      "age": 25,
+      "description": "et voluptatum distinctio minus ullam",
+      "drawingTechnique": "traditionnelle",
+      "publicationNb": 1,
+      "year": 2018
+    },
+    {
+      "id": 11,
+      "name": "Albina",
+      "job": "noveliste",
+      "subject": "dolores",
+      "age": 25,
+      "description": "fugit necessitatibus tenetur ipsam",
+      "drawingTechnique": "traditionnelle",
+      "publicationNb": 2,
+      "year": 2018
+    },
+    {
+      "id": 12,
+      "name": "Jennifer",
+      "job": "BDéiste",
+      "subject": "reiciendis",
+      "age": 21,
+      "description": "omnis voluptatibus eos et",
+      "drawingTechnique": "traditionnelle",
+      "publicationNb": 3,
+      "year": 2018
+    },
+    {
+      "id": 13,
+      "name": "Dustin",
+      "job": "Illustrateur",
+      "subject": "voluptate",
+      "age": 21,
+      "description": "qui velit",
+      "drawingTechnique": "digitale",
+      "publicationNb": 4,
+      "year": 2019
+    },
+    {
+      "id": 14,
+      "name": "Asia",
+      "job": "BDéiste",
+      "subject": "quod",
+      "age": 23,
+      "description": "ea",
+      "drawingTechnique": "digitale",
+      "publicationNb": 4,
+      "year": 2018
+    },
+    {
+      "id": 15,
+      "name": "Reva",
+      "job": "BDéiste",
+      "subject": "in",
+      "age": 25,
+      "description": "quis magni et saepe",
+      "drawingTechnique": "traditionnelle",
+      "publicationNb": 5,
+      "year": 2017
+    },
+    {
+      "id": 16,
+      "name": "Al",
+      "job": "Illustrateur",
+      "subject": "temporibus",
+      "age": 20,
+      "description": "et dolores distinctio voluptate quam",
+      "drawingTechnique": "digitale",
+      "publicationNb": 3,
+      "year": 2018
+    },
+    {
+      "id": 17,
+      "name": "Cordia",
+      "job": "noveliste",
+      "subject": "aut",
+      "age": 25,
+      "description": "id qui",
+      "drawingTechnique": "traditionnelle",
+      "publicationNb": 3,
+      "year": 2019
+    },
+    {
+      "id": 18,
+      "name": "Marcus",
+      "job": "BDéiste",
+      "subject": "nihil",
+      "age": 20,
+      "description": "fuga et culpa occaecati voluptas sed",
+      "drawingTechnique": "digitale",
+      "publicationNb": 1,
+      "year": 2019
+    },
+    {
+      "id": 19,
+      "name": "Leora",
+      "job": "Illustrateur",
+      "subject": "quis",
+      "age": 21,
+      "description": "eum itaque",
+      "drawingTechnique": "traditionnelle",
+      "publicationNb": 1,
+      "year": 2019
+    },
+    {
+      "id": 20,
+      "name": "Willy",
+      "job": "BDéiste",
+      "subject": "sunt",
+      "age": 22,
+      "description": "tenetur culpa blanditiis perferendis velit",
+      "drawingTechnique": "digitale",
+      "publicationNb": 5,
+      "year": 2018
+    }
+  ],
+  "events": [
+    {
+      "id": 0,
+      "name": "consequatur cum esse ut voluptatem eveniet id",
+      "description": "error voluptates cumque aliquid dolore sed laudantium est nam numquam"
+    },
+    {
+      "id": 1,
+      "name": "unde est omnis incidunt dolorem",
+      "description": "ratione sit et omnis ea et ullam qui et quo ab velit nam commodi possimus perferendis tenetur iste aperiam eveniet"
+    },
+    {
+      "id": 2,
+      "name": "reprehenderit sit cum distinctio voluptatem illum a similique ipsa",
+      "description": "est animi non quo blanditiis nihil ducimus eveniet maxime quibusdam nemo aut"
+    },
+    {
+      "id": 3,
+      "name": "non corporis ut vel",
+      "description": "maxime quas atque quia neque qui occaecati facere vel ut pariatur"
+    },
+    {
+      "id": 4,
+      "name": "nihil molestias quaerat amet ipsum assumenda corporis",
+      "description": "corporis quo asperiores ut quam facere aut quo qui distinctio accusantium perferendis aut perferendis officia"
+    },
+    {
+      "id": 5,
+      "name": "cupiditate omnis dolorem blanditiis in",
+      "description": "harum asperiores praesentium est et corrupti aut similique perspiciatis numquam"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "idMember": 16,
+      "tasks": "quia et at nesciunt vel",
+      "dueDate": "1997-07-14",
+      "category": "communication",
+      "description": "quo quae tempore itaque porro accusamus et quibusdam minima voluptas et sint sit itaque sit sequi quis",
+      "action": {
+        "displayDescription": false,
+        "displayPopUp": false
+      },
+      "isDone": false
+    },
+    {
+      "id": 2,
+      "idMember": 6,
+      "tasks": "ut deleniti quo incidunt perspiciatis",
+      "dueDate": "1980-04-16",
+      "category": "fanzine",
+      "description": "et culpa est cupiditate pariatur sapiente rerum voluptas aut velit accusantium ab illum nisi est officiis tempore omnis earum asperiores",
+      "action": {
+        "displayDescription": false,
+        "displayPopUp": false
+      },
+      "isDone": false
+    },
+    {
+      "id": 3,
+      "idMember": 14,
+      "tasks": "libero qui ut nesciunt aut eos aliquid",
+      "dueDate": "2004-11-06",
+      "category": "communication",
+      "description": "fugit eaque molestias quis quia id ut nisi quae sint sint labore voluptas modi dolore dignissimos praesentium ut",
+      "action": {
+        "displayDescription": false,
+        "displayPopUp": false
+      },
+      "isDone": false
+    },
+    {
+      "id": 4,
+      "idMember": 14,
+      "tasks": "aliquid repellat et laboriosam incidunt quia qui",
+      "dueDate": "1997-11-26",
+      "category": "fanzine",
+      "description": "dolorem impedit accusamus architecto qui et eveniet cupiditate ad ut aut alias aperiam reprehenderit eius",
+      "action": {
+        "displayDescription": false,
+        "displayPopUp": false
+      },
+      "isDone": false
+    },
+    {
+      "id": 5,
+      "idMember": 20,
+      "tasks": "nam fuga placeat non aspernatur vero sit iure",
+      "dueDate": "1997-03-30",
+      "category": "communication",
+      "description": "sunt ea incidunt placeat laboriosam totam quia consequatur eligendi laborum veniam est doloribus aspernatur magnam ut voluptatibus non sit sint dolorem et asperiores quam animi",
+      "action": {
+        "displayDescription": false,
+        "displayPopUp": false
+      },
+      "isDone": false
+    },
+    {
+      "id": 6,
+      "idMember": 11,
+      "tasks": "dolorem et tempore possimus quod fugiat",
+      "dueDate": "2001-07-15",
+      "category": "reunion",
+      "description": "accusamus iusto maxime ipsa non nostrum et et consequatur in",
+      "action": {
+        "displayDescription": false,
+        "displayPopUp": false
+      },
+      "isDone": true
+    },
+    {
+      "id": 7,
+      "idMember": 5,
+      "tasks": "voluptas ratione qui iusto eaque ab",
+      "dueDate": "2015-01-15",
+      "category": "fanzine",
+      "description": "harum quibusdam itaque et esse dolorum placeat quisquam veniam voluptas amet culpa tenetur beatae",
+      "action": {
+        "displayDescription": false,
+        "displayPopUp": false
+      },
+      "isDone": true
+    },
+    {
+      "id": 8,
+      "idMember": 10,
+      "tasks": "dolore corporis eos soluta maiores placeat aut",
+      "dueDate": "1977-07-07",
+      "category": "reunion",
+      "description": "occaecati et occaecati sed maxime sunt qui sed quae totam voluptate omnis deleniti illum autem eius aut sit",
+      "action": {
+        "displayDescription": false,
+        "displayPopUp": false
+      },
+      "isDone": false
+    },
+    {
+      "id": 9,
+      "idMember": 20,
+      "tasks": "molestiae recusandae odio assumenda aperiam",
+      "dueDate": "1993-04-05",
+      "category": "fanzine",
+      "description": "deserunt iusto sit nam nihil voluptate aut modi quasi expedita",
+      "action": {
+        "displayDescription": false,
+        "displayPopUp": false
+      },
+      "isDone": true
+    },
+    {
+      "id": 10,
+      "idMember": 8,
+      "tasks": "quia ex qui quo doloribus dolores",
+      "dueDate": "1977-09-18",
+      "category": "communication",
+      "description": "maxime nulla iste voluptatem minima sunt doloremque corrupti temporibus totam assumenda quaerat vitae officia rerum iure ut quia et id similique debitis",
+      "action": {
+        "displayDescription": false,
+        "displayPopUp": false
+      },
+      "isDone": true
+    }
+  ],
+  "news": [
+    {
+      "id": 0,
+      "name": "dicta quia sapiente",
+      "date": "1989-09-23",
+      "description": "repudiandae reprehenderit nobis"
+    },
+    {
+      "id": 1,
+      "name": "error et id voluptatem",
+      "date": "2009-01-22",
+      "description": "ut id distinctio illo qui"
+    },
+    {
+      "id": 2,
+      "name": "ex perspiciatis repudiandae numquam architecto",
+      "date": "1981-07-29",
+      "description": "fugiat rerum omnis deserunt dignissimos"
+    },
+    {
+      "id": 3,
+      "name": "magnam sed doloribus",
+      "date": "1981-09-11",
+      "description": "inventore quasi et omnis"
+    },
+    {
+      "id": 4,
+      "name": "adipisci molestiae",
+      "date": "1984-01-23",
+      "description": "ab dolor error doloremque a"
+    },
+    {
+      "id": 5,
+      "name": "et deleniti et sint",
+      "date": "1992-01-30",
+      "description": "recusandae aspernatur quasi"
+    },
+    {
+      "id": 6,
+      "name": "totam architecto expedita exercitationem consequatur",
+      "date": "1979-06-17",
+      "description": "nemo voluptatem deleniti"
+    },
+    {
+      "id": 7,
+      "name": "esse dolore",
+      "date": "1974-03-16",
+      "description": "tenetur facere"
+    },
+    {
+      "id": 8,
+      "name": "ea enim",
+      "date": "2009-09-10",
+      "description": "tempora quae fuga dolorem"
+    },
+    {
+      "id": 9,
+      "name": "vitae vel est",
+      "date": "1981-12-08",
+      "description": "quis commodi similique ducimus nostrum"
+    },
+    {
+      "id": 10,
+      "name": "iure nostrum similique",
+      "date": "1977-07-23",
+      "description": "ratione voluptatem itaque"
+    }
+  ],
+  "fanzines": [
+    {
+      "year": 2018,
+      "nbBD": 7,
+      "nbIllustration": 10,
+      "guest": 18,
+      "vente": 24
+    },
+    {
+      "year": 2019,
+      "nbBD": 6,
+      "nbIllustration": 9,
+      "guest": 13,
+      "vente": 43
+    },
+    {
+      "year": 2020,
+      "nbBD": 6,
+      "nbIllustration": 6,
+      "guest": 19
+    },
+    {
+      "year": 2021,
+      "nbBD": 6,
+      "nbIllustration": 8,
+      "guest": 17
+    }
+  ],
+  "userAction": {
+    "task": {
+      "displayPopUp": false,
+      "taskName": "",
+      "taskDescription": "",
+      "taskDate": "",
+      "taskCategory": "none",
+      "communication": false,
+      "fanzine": false,
+      "reunion": false
+    }
+  }
+}
