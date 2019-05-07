@@ -1,5 +1,11 @@
 /******* RESPONSIVE *******/
 
+@media screen and (min-width: 1524px){
+  .left .team .profiles div{
+    width: 30%;
+  }
+}
+
 @media screen and (max-width: 1279px){
   /****** TEAM *****/
   .left .profiles .formation{
@@ -8,10 +14,10 @@
   .left .team .profiles div{
     display: block;
     width: 95%;
+    margin: 5px 2.5%;
   }
-  .left .team .profiles div:first-child, .left .team .profiles div:nth-child(2){
-    margin-right: 0;
-    margin-bottom: 10px;
+  .left .team .profiles div:first-child{
+    margin-left: 2.5%;
   }
   .left .team .profiles div img{
     margin-right: 20px;

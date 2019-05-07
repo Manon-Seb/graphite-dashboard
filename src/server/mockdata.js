@@ -11,6 +11,12 @@ let db = {update:[true],team:[],members:[],events:[],tasks:[],news:[],
       communication: false,
       fanzine: false,
       reunion: false
+    },
+    news: {
+      equipe: false,
+      evenement: false,
+      atelier: false,
+      autre: false
     }}};
 
 for (let i=0; i<3; i++){
@@ -21,7 +27,7 @@ for (let i=0; i<3; i++){
   team.subject = casual.words(1);
   team.age = casual.integer(20,25);
   team.description = casual.words(casual.integer(1,6));
-  team.drawingTechnique = casual.words(1);
+  team.drawingTechnique = casual.random_element(['traditionnelle','digitale', 'traditionnelle et digitale']);
   team.publicationNb = casual.integer(1,5);
   db.team.push(team);
 }
@@ -29,12 +35,13 @@ for(let i=0; i<=20; i++){
    let members = {};
    members.id = i;
    members.name = casual.first_name;
-   members.job = casual.words(1);
+   members.job = casual.random_element(['Illustrateur','BDéiste', 'Noveliste', 'Chargé de communication', 'Secrétaire']);
    members.subject = casual.words(1);
    members.age = casual.integer(20,25);
    members.description = casual.words(casual.integer(1,6));
-   members.drawingTechnique = casual.words(1);
+   team.drawingTechnique = casual.random_element(['traditionnelle','digitale', 'traditionnelle et digitale']);
    members.publicationNb = casual.integer(1,5);
+   members.year = casual.random_element([2017,2018,2019]);
    db.members.push(members);
 }
 

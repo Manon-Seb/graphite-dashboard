@@ -15,11 +15,8 @@ const plugins = [
 const config = {
   entry: [
     path.resolve(__dirname, './src/index.js'),
-    path.resolve(__dirname, './src/components/calendar/jsCalendar.js'),
-    path.resolve(__dirname, './src/components/calendar/jsCalendar.lang.fr.js'),
     path.resolve(__dirname, './styles/app.css'),
     path.resolve(__dirname, './styles/app-responsive.css'),
-    path.resolve(__dirname, './styles/jsCalendar.css'),
     path.resolve(__dirname, './styles/members_page.css'),
     path.resolve(__dirname, './styles/news_page.css')
   ],

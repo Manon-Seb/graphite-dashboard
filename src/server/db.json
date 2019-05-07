@@ -39,12 +39,13 @@
     {
       "id": 0,
       "name": "Danyka BELLOT",
-      "job": "Croquis des planches de BD",
+      "job": "BDéiste",
       "subject": "Génie civil",
       "age": 21,
       "description": "Dessinant plus vite que son ombre, elle peut vous sortir le croquis de 10 planches de BD par heure, et encore plus si vous lui apportez un paquet de bonbon.",
-      "drawingTechnique": "Traditionnelle",
+      "drawingTechnique": "traditionnelle",
       "publicationNb": 2,
+      "year": 2018,
       "action": {
         "displayFullProfile": false
       }
@@ -52,22 +53,24 @@
     {
       "id": 1,
       "name": "Tony STARK",
-      "job": "Character designer",
+      "job": "Illustrateur",
       "subject": "Génie civil",
       "age": 22,
       "description": "Doté d'une imagination débordante, il adore créer des personnages de tous univers, avec une préférence pour le cyberpunk et tout ce qui est futuriste.",
-      "drawingTechnique": "Traditionnelle et tablette",
-      "publicationNb": 4
+      "drawingTechnique": "traditionnelle et digitale",
+      "publicationNb": 4,
+      "year": 2019
     },
     {
       "id": 2,
       "name": "Bradley DUONG",
-      "job": "Création de décors",
+      "job": "Illustrateur",
       "subject": "Licence cinéma et audiovisuel",
       "age": 21,
       "description": "Membre spécialisé dans le dessin de paysages, en particulier de grandes villes au style futuriste. Il réalise ses croquis en technique tradtionnelle avant de toute passer sur ordinateur pour le line et la couleur.",
-      "drawingTechnique": "Traditionnelle et tablette",
-      "publicationNb": 5
+      "drawingTechnique": "traditionnelle et digitale",
+      "publicationNb": 5,
+      "year": 2018
     },
     {
       "id": 3,
@@ -76,108 +79,119 @@
       "subject": "Licence de communication",
       "age": 23,
       "description": "Il s'occupe des réseaux sociaux de Graphite, de la diffusion des événements et coordonne les membres en charge de la création des affiches et flyers.",
-      "drawingTechnique": "Tablette",
-      "publicationNb": 1
+      "drawingTechnique": "digitale",
+      "publicationNb": 1,
+      "year": 2017
     },
     {
       "id": 4,
       "name": "Alliah ISTAVION",
-      "job": "Graphiste",
+      "job": "Illustrateur",
       "subject": "Etudes visuelles, multimédia et arts numériques",
       "age": 22,
       "description": "Dotée d'un grand sens esthétique, elle réalise les affiches et flyers pour la communication de l'association sous la direction d'Izuku.",
-      "drawingTechnique": "Tablette",
-      "publicationNb": 4
+      "drawingTechnique": "digitale",
+      "publicationNb": 4,
+      "year": 2017
     },
     {
       "id": 5,
       "name": "Justen CHEVALIER",
-      "job": "Senpai du dessin",
+      "job": "Illustrateur",
       "subject": "Master science de l'image",
       "age": 24,
       "description": "Dessinateur expérimenté ayant déjà travaillé sur plusieurs fanzines, il enseigne ses techniques secrètes aux dessinateurs en herbe.",
-      "drawingTechnique": "Traditionnelle",
-      "publicationNb": 3
+      "drawingTechnique": "traditionnelle",
+      "publicationNb": 3,
+      "year": 2017
     },
     {
       "id": 6,
       "name": "Lou VASSIL",
-      "job": "Illustratrice d'événement",
+      "job": "Illustrateur",
       "subject": "Etudes visuelles, multimédia et arts numériques",
       "age": 22,
       "description": "Spécialisée dans le speed painting, elle réalise les bannières pour les événements ainsi que l'illustration de certains posts pour les réseaux sociaux.",
-      "drawingTechnique": "Traditionnelle et tablette",
-      "publicationNb": 3
+      "drawingTechnique": "traditionnelle et digitale",
+      "publicationNb": 3,
+      "year": 2018
     },
     {
       "id": 7,
       "name": "Lisa CHULANONT",
-      "job": "Apprentie dessinatrice",
+      "job": "Illustrateur",
       "subject": "IMAC",
       "age": 21,
-      "description": "Dessinatrice en herbe cherchant à améliorer sa technique pour dessiner l'anatomie (en particulier les mains). Elle adore dessiner tout ce qui touche aà l'heroic fantasy.",
-      "drawingTechnique": "Traditionnelle",
-      "publicationNb": 4
+      "description": "Dessinatrice en herbe cherchant à améliorer sa technique pour dessiner l'anatomie (en particulier les mains). Elle adore dessiner tout ce qui touche à l'heroic fantasy.",
+      "drawingTechnique": "traditionnelle",
+      "publicationNb": 4,
+      "year": 2019
     },
     {
       "id": 8,
       "name": "Abel NIGHTROAD",
-      "job": "Le senpai de tout le monde",
+      "job": "Illustrateur",
       "subject": "Master arts numériques et cultures visuelles",
       "age": 24,
       "description": "Membre le plus expérimenté ayant déjà collaboré sur des fanzines dans plusieurs associations, il est bon aussi bien pour dessiner des personnages que des décors ou encore des animaux.",
-      "drawingTechnique": "Traditionnelle et tablette",
-      "publicationNb": 4
+      "drawingTechnique": "traditionnelle et digitale",
+      "publicationNb": 4,
+      "year": 2017
     },
     {
       "id": 9,
       "name": "Xander LOMNICKI",
-      "job": "Dessinateur en herbe",
+      "job": "BDéiste",
       "subject": "Génie mécanique",
       "age": 21,
       "description": "Doué pour dessiner des personnages, il cherche à améliorer ses techniques de colorisation ainsi qu'à maîtriser l'ombre et la lumière.",
-      "drawingTechnique": "Tablette",
-      "publicationNb": 3
+      "drawingTechnique": "digitale",
+      "publicationNb": 3,
+      "year": 2018
     },
     {
       "id": 10,
       "name": "Zita CLUZEAU",
-      "job": "Apprentie dessinatrice",
+      "job": "Noveliste",
       "subject": "IMAC",
       "age": 24,
       "description": "id commodi velit",
-      "drawingTechnique": "Traditionnelle",
-      "publicationNb": 5
+      "drawingTechnique": "traditionnelle",
+      "publicationNb": 5,
+      "year": 2018
     },
     {
       "id": 11,
       "name": "Mayra PRUVOST",
-      "job": "Apprentie dessinatrice",
+      "job": "Noveliste",
       "subject": "STAPS",
       "age": 24,
       "description": "saepe",
-      "drawingTechnique": "Traditionnelle",
-      "publicationNb": 2
+      "drawingTechnique": "traditionnelle",
+      "publicationNb": 2,
+      "year": 2019
     },
     {
       "id": 12,
       "name": "Mandy BROWN",
-      "job": "Graphiste",
+      "job": "Illustrateur",
       "subject": "IMAC",
       "age": 25,
-      "description": "Son stype de dessin authentique et son sens de l'humour créent des affiches et des flyers décalés. Elle réalise également des affiches et des flyers sous la direction d'Izuku.",
-      "drawingTechnique": "Tablette",
-      "publicationNb": 4
+      "description": "Son style de dessin authentique et son sens de l'humour créent des affiches et des flyers décalés. Elle réalise également des affiches et des flyers sous la direction d'Izuku.",
+      "drawingTechnique": "digitale",
+      "publicationNb": 4,
+      "year": 2018
     },
     {
       "id": 13,
       "name": "Alphonso MANOLOVITCH",
-      "job": "Créateur de mechas",
+      "job": "Illustrateur",
       "subject": "Electronique et informatique - Systèmes communicants",
       "age": 21,
       "description": "Passionné par Gundam, Goldorak et Code Geass, il adore dessiner des machines et des mechas avec un sens du détail surprenant.",
-      "drawingTechnique": "Traditionnelle et tablette",
-      "publicationNb": 4
+      "drawingTechnique": "traditionnelle et digitale",
+      "publicationNb": 4,
+      "year": 2017
     },
     {
       "id": 14,
@@ -187,67 +201,74 @@
       "age": 23,
       "description": "Besoin d'une info ? Passez par lui ! Il sait tout de l'association, tout des événements, tout des ateliers et tout des membres (ou presque).",
       "drawingTechnique": "J'écris mieux que je ne dessine (#Murl)",
-      "publicationNb": 5
+      "publicationNb": 5,
+      "year": 2017
     },
     {
       "id": 15,
       "name": "Paul KAELBLEN",
-      "job": "Apprenti dessinateur",
+      "job": "Illustrateur",
       "subject": "Génie informatique",
       "age": 21,
       "description": "Son passe temps favori : gribouiller sur ses cahiers pendant les cours. Mais il est temps de passer aux choses sérieuses et de faire des dessins de plus grandes envergures !",
-      "drawingTechnique": "Traditionnelle",
-      "publicationNb": 2
+      "drawingTechnique": "traditionnelle",
+      "publicationNb": 2,
+      "year": 2019
     },
     {
       "id": 16,
       "name": "Adrien MENAUD",
-      "job": "Apprenti dessinateur",
+      "job": "BDéiste",
       "subject": "IMAC",
       "age": 22,
-      "description": "Il a les bases aussi bien pour l'anatomie que pour les décors. Il cherche à améliorer sa technique et à s'initier à la colorisation.",
-      "drawingTechnique": "Tablette",
-      "publicationNb": 4
+      "description": "Il a les bases aussi bien pour l'anatomie que pour les décors. Il cherche à améliorer sa technique et à s'initier à la colorisation pour réaliser des BDs.",
+      "drawingTechnique": "digitale",
+      "publicationNb": 4,
+      "year": 2018
     },
     {
       "id": 17,
       "name": "Elisa MILLET",
-      "job": "Apprentie dessinatrice",
-      "subject": "necessitatibus",
+      "job": "Illustrateur",
+      "subject": "STAPS",
       "age": 24,
       "description": "Ayant débuté le dessin il y a peu, elle cherche à renforcer ses bases en dessin avant de tenter des choses plus complexes. Elle a un goût très prononcé pour les looks un peu extravagants et flashy.",
-      "drawingTechnique": "Traditionnelle",
-      "publicationNb": 4
+      "drawingTechnique": "traditionnelle",
+      "publicationNb": 4,
+      "year": 2019
     },
     {
       "id": 18,
       "name": "Alm DE VALENTIA",
-      "job": "Character designer",
+      "job": "Illustrateur",
       "subject": "IMAC",
       "age": 20,
       "description": "Passionné d'heroic fantasy, il adore créer des personnages en armure et toutes sortes d'armes (épée, lance, arc...).",
-      "drawingTechnique": "Traditionnelle et tablette",
-      "publicationNb": 3
+      "drawingTechnique": "traditionnelle et digitale",
+      "publicationNb": 3,
+      "year": 2019
     },
     {
       "id": 19,
       "name": "Oswald FINLEY",
-      "job": "Apprenti dessinateur",
+      "job": "BDéiste",
       "subject": "Génie mécanique",
       "age": 24,
       "description": "Il adore créer de petites BD (yonkomas) pour raconter son quotidien. Il est très doué pour dessiner les personnages en version chibi mais il aimerait également s'améliorer avec une anatomie 'normale'.",
-      "drawingTechnique": "Tablette",
-      "publicationNb": 1
+      "drawingTechnique": "tablette",
+      "publicationNb": 1,
+      "year": 2017
     },
     {
       "id": 20,
       "name": "Raleigh PARKER",
-      "job": "Dessinateur en herbe",
+      "job": "Illustrateur",
       "subject": "IMAC",
       "age": 23,
       "description": "Ne jurant que par son crayon gris, il peut passer des heures à dessiner sans s'arrêter. Il souhaiterait apprendre à dessiner des décors ainsi que des véhicules comme des voitures.",
-      "drawingTechnique": "Tradtionnelle",
-      "publicationNb": 4
+      "drawingTechnique": "tradtionnelle",
+      "publicationNb": 4,
+      "year": 2018
     }
   ],
   "events": [
@@ -432,7 +453,7 @@
       "id": 0,
       "name": "Recrutement équipe 2020",
       "date": "2019-05-01",
-      "category": "equipe",
+      "category": "équipe",
       "description": "Graphite recherche de nouveaux dessinateurs pour intégrer l'équipe de 2020 ! Séances créatives, bonne humeur et partage sont au rendez-vous !",
       "fullDescription": "Comme chaque année, des membres nous quittent pour de nouveaux horizons mais nous, nous ne nous arrêtons pas ! C'est pourquoi Graphite fait appel à vous ! Nous recrutons de nouveaux dessinateurs, débutant ou confirmé, peu importe votre technique de dessins. Les possibilités de posts et d'activités sont nombreuses : senpai, kohai, graphiste pour la communication de l'association, organisation d'atelier... Il y a de quoi libérer le dessinateur qui sommeille en vous ! Si vous êtes intéressés, vous pouvez nous envoyer un mail ou venir directement à notre local situé dans le bâtiment Copernic.",
       "img": "../../img/staff.jpg"
@@ -441,7 +462,7 @@
       "id": 1,
       "name": "Festival Pulp édition 2020",
       "date": "2019-04-06",
-      "category": "evenement",
+      "category": "événement",
       "description": "Le festival Pulp vient à peine de se terminer que nous préparons la prochaine édition. Notez dès à présent les dates : du 3 à 5 avril 2020 !",
       "fullDescription": "Après une superbe seconde édition, Graphite vous donne rendez-vous en 2020 du 3 au 5 avril à la Ferme du Buisson. Attendez-vous à plus de contenus, plus d'activités et plus d'exclusivités ! A noter que nous recruterons sous peu de nouveaux membres pour participer à cette fabuleuse aventure.",
       "img": "../../img/fire_emblem.jpg"
@@ -450,7 +471,7 @@
       "id": 2,
       "name": "Dernière ligne droite avant le festival Pulp",
       "date": "2019-03-20",
-      "category": "evenement",
+      "category": "événement",
       "description": "Le festival Pulp approche à grands pas ! Venez découvrir nos artistes et leur fanzine les 6 et 7 avril prochain !",
       "fullDescription": "Plus que 2 semaines avant le lancement de la seconde édition du festival Pulp ! Si vous n'avez rien précu les 6 et 7 avril, pensez à faire un détour par la Ferme du Buisson ! Nous vous réservons plein de surprises sur notre stand.",
       "img": "../../img/fire_emblem.jpg"
@@ -459,7 +480,7 @@
       "id": 3,
       "name": "Programme du festival Pulp",
       "date": "2019-02-19",
-      "category": "evenement",
+      "category": "événement",
       "description": "Le programme du festival est en ligne ! Animations, échanges, ateliers, nous vous avons concocté plein d'activités !",
       "fullDescription": "Vous l'attendiez ? Le voici ! Le programme du festival Pulp ! De nombreuses activités sont à prévoir durant 2 jours de folie. N'oubliez pas que vous pourrez retirer sur notre stand le second numéro de notre fanzine (et le premier également pour les retardataires). Le programme est disponible en PDF sur notre page Facebook ainsi que notre site web !",
       "img": "../../img/staff.jpg"
@@ -504,7 +525,7 @@
       "id": 8,
       "name": "Concours de dessin spécial Noël",
       "date": "2018-12-01",
-      "category": "evenement",
+      "category": "événement",
       "description": "ducimus quidem",
       "fullDescription": "Pour la première fois, Graphite vous propose un concours de dessin !",
       "img": "../../img/fire_emblem.jpg"
@@ -522,7 +543,7 @@
       "id": 10,
       "name": "quae unde qui amet",
       "date": "2018-10-22",
-      "category": "equipe",
+      "category": "équipe",
       "description": "cupiditate ullam",
       "fullDescription": "et voluptate consequatur itaque",
       "img": "../../img/fire_emblem.jpg"
@@ -538,6 +559,12 @@
       "communication": false,
       "fanzine": false,
       "reunion": false
+    },
+    "news": {
+      "equipe": false,
+      "evenement": false,
+      "atelier": false,
+      "autre": false
     }
   }
 }
