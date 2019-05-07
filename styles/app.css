@@ -330,15 +330,15 @@ li{
 }
 .news button{
   margin: 20px auto;
-}
-.news button, .button__add{
-  width: 60%;
+  padding: 5px 0;
+  width: 75%;
 }
 
 /****** TO-DO LIST ******/
 
 .button__add {
   margin: 3%;
+  width: 60%;
   background-color: #DC7D2F;
   border-radius: 25px;
   font-family: 'Montserrat', sans-serif;

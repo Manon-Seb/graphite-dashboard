@@ -6,12 +6,12 @@ export default (state) => {
     <div class="right">
       <div class="calendar category">
         <h2>Calendrier</h2>
-        <div id="calendar" class="auto-jsCalendar"></div>
+        <img src="../../img/calendar_test.jpg" width="800" height="522.4" alt="calendrier test"/>
       </div>
       <div class="news category">
         <h2>Les dernières nouvelles</h2>
         {newsList(state.news)}
-        <button type="button">Voir toutes les news</button>
+        <button>Voir toutes les news</button>
       </div>
     </div>
   )
