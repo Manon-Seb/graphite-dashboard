@@ -70,6 +70,26 @@ export default {
     }
   },
 
+  changeNews: (id) => (state) => {
+    const newsId = state.news.findIndex(i => i.id === id)
+    const changedNews = {
+      ...state.news[newsId],
+      name: state.userAction.news.newsName,
+      category: state.userAction.news.newsCategory,
+      description: state.userAction.news.newsDescription,
+      img: state.userAction.news.newsImage,
+      displayEditPopUp: false,
+      displayPopUp: false
+    }
+    changeData('http://localhost:8080/news/' + id, changedNews)
+    const newsArray = state.tasks.slice(0, newsId)
+      .concat([changedNews])
+      .concat(state.tasks.slice(newsId + 1, state.news.length))
+    return {...state,
+      news: newsArray
+    }
+  },
+
   changeTask: (id) => (state) => {
     const taskId = state.tasks.findIndex(i => i.id === id)
     const changedTask = {
@@ -120,7 +140,46 @@ export default {
     }
   },
 
-  newsEdit: (id) => (state) => {
+  newsOpenEdit: (id) => (state) => {
+    const newsId = state.news.findIndex(i => i.id === id)
+    const changedNews = {
+      ...state.news[newsId],
+      displayEditPopUp: true
+    }
+    const saveData = {
+      ...state.userAction.news,
+      newsName: state.news[newsId].name,
+      newsImage: state.news[newsId].img,
+      newsDescription: state.news[newsId].description,
+      newsCategory: state.news[newsId].category
+    }
+    const newsArray = state.news.slice(0, newsId)
+      .concat([changedNews])
+      .concat(state.news.slice(newsId + 1, state.news.length))
+    return {...state,
+      news: newsArray,
+      userAction: {
+        ...state.userAction,
+        news: saveData
+      }
+    }
+  },
+
+  newsCloseEdit: (id) => (state) => {
+    const newsId = state.news.findIndex(i => i.id === id)
+    const changedNews = {
+      ...state.news[newsId],
+      displayEditPopUp: false
+    }
+    const newsArray = state.news.slice(0, newsId)
+      .concat([changedNews])
+      .concat(state.news.slice(newsId + 1, state.news.length))
+    return {...state,
+      news: newsArray
+    }
+  },
+
+  newsHoverIn: (id) => (state) => {
     const newsId = state.news.findIndex(i => i.id === id)
     const changedNews = {
       ...state.news[newsId],
@@ -134,7 +193,7 @@ export default {
     }
   },
 
-  newsHover: (id) => (state) => {
+  newsHoverOut: (id) => (state) => {
     const newsId = state.news.findIndex(i => i.id === id)
     const changedNews = {
       ...state.news[newsId],
@@ -166,8 +225,8 @@ export default {
   },
 
   newsCategory: () => (state) => {
-    const element = document.getElementById('Newscategorie').selectedIndex
-    const value = document.getElementById('Newscategorie').options[element].value
+    const element = document.getElementById('NewsEditcategorie').selectedIndex
+    const value = document.getElementById('NewsEditcategorie').options[element].value
     return {...state, userAction: {...state.userAction, news: {...state.userAction.news, newsCategory: value}}}
   },
 
