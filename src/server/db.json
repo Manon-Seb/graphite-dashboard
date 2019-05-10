@@ -550,32 +550,32 @@
     }
   ],
   "fanzines": [
-  	{
-  	  "year": 2018,
-  	  "nbBD": 7,
-  	  "nbIllustration": 10,
-  	  "guest": 18,
-  	  "vente": 24
-  	},
-  	{
-  	  "year": 2019,
-  	  "nbBD": 6,
-  	  "nbIllustration": 9,
-  	  "guest": 13,
-  	  "vente": 43
-  	},
-  	{
-  	  "year": 2020,
-  	  "nbBD": 6,
-  	  "nbIllustration": 6,
-  	  "guest": 19
-  	},
-  	{
-  	  "year": 2021,
-  	  "nbBD": 6,
-  	  "nbIllustration": 8,
-  	  "guest": 17
-  	}
+    {
+      "year": 2018,
+      "nbBD": 7,
+      "nbIllustration": 10,
+      "guest": 18,
+      "vente": 24
+    },
+    {
+      "year": 2019,
+      "nbBD": 6,
+      "nbIllustration": 9,
+      "guest": 13,
+      "vente": 43
+    },
+    {
+      "year": 2020,
+      "nbBD": 6,
+      "nbIllustration": 6,
+      "guest": 19
+    },
+    {
+      "year": 2021,
+      "nbBD": 6,
+      "nbIllustration": 8,
+      "guest": 17
+    }
   ],
   "userAction": {
     "task": {
@@ -596,4 +596,3 @@
     }
   }
 }
-

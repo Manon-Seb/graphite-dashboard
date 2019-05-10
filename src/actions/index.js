@@ -20,6 +20,35 @@ const addData = (url, object) => {
 
 export default {
 
+  addNewsPopUp: () => (state) => {
+    return {...state, userAction: {...state.userAction, news: {...state.userAction.news, displayPopUp: !state.userAction.news.displayPopUp}}}
+  },
+
+  addNews: () => (state) => {
+    const today = new Date()
+    const newNews = {
+      name: state.userAction.news.newsName,
+      date: String(today.getFullYear() + '-' + String(today.getMonth() + 1) + '-' + String(today.getDate())),
+      category: state.userAction.news.newsCategory,
+      description: state.userAction.news.newsDescription,
+      fullDescription: '',
+      img: state.userAction.news.newsImage
+    }
+    addData('http://localhost:8080/news', newNews)
+    const newArray = [...state.news].concat([newNews])
+    // addData('http://localhost:8080/tasks', newTask)
+    return {...state,
+      news: newArray,
+      userAction: {
+        ...state.userAction,
+        news: {
+          ...state.userAction.news,
+          displayPopUp: false
+        }
+      }
+    }
+  },
+
   addTask: () => (state) => {
     const newTask = {
       idMember: 0,
@@ -79,6 +108,80 @@ export default {
     if (nb === 1) return {...state, userAction: {...state.userAction, task: {...state.userAction.task, fanzine: !state.userAction.task.fanzine}}}
     if (nb === 2) return {...state, userAction: {...state.userAction, task: {...state.userAction.task, communication: !state.userAction.task.communication}}}
     if (nb === 3) return {...state, userAction: {...state.userAction, task: {...state.userAction.task, reunion: !state.userAction.task.reunion}}}
+  },
+
+  newsDelete: (id) => (state) => {
+    const newsId = state.news.findIndex(i => i.id === id)
+    const newsArray = state.news.slice(0, newsId)
+      .concat(state.news.slice(newsId + 1, state.news.length))
+    deleteData('http://localhost:8080/news/' + id)
+    return {...state,
+      news: newsArray
+    }
+  },
+
+  newsEdit: (id) => (state) => {
+    const newsId = state.news.findIndex(i => i.id === id)
+    const changedNews = {
+      ...state.news[newsId],
+      displayPopUp: true
+    }
+    const newsArray = state.news.slice(0, newsId)
+      .concat([changedNews])
+      .concat(state.news.slice(newsId + 1, state.news.length))
+    return {...state,
+      news: newsArray
+    }
+  },
+
+  newsHover: (id) => (state) => {
+    const newsId = state.news.findIndex(i => i.id === id)
+    const changedNews = {
+      ...state.news[newsId],
+      displayPopUp: false
+    }
+    const newsArray = state.news.slice(0, newsId)
+      .concat([changedNews])
+      .concat(state.news.slice(newsId + 1, state.news.length))
+    return {...state,
+      news: newsArray
+    }
+  },
+
+  newsName: (string) => (state) => {
+    return {...state, userAction: {...state.userAction, news: {...state.userAction.news, newsName: string}}}
+  },
+
+  newsImage: (string) => (state) => {
+    return {
+      ...state,
+      userAction: {
+        ...state.userAction,
+        news: {
+          ...state.userAction.news,
+          newsImage: string
+        }
+      }
+    }
+  },
+
+  newsCategory: () => (state) => {
+    const element = document.getElementById('Newscategorie').selectedIndex
+    const value = document.getElementById('Newscategorie').options[element].value
+    return {...state, userAction: {...state.userAction, news: {...state.userAction.news, newsCategory: value}}}
+  },
+
+  newsDescription: (string) => (state) => {
+    return {
+      ...state,
+      userAction: {
+        ...state.userAction,
+        news: {
+          ...state.userAction.news,
+          newsDescription: string
+        }
+      }
+    }
   },
 
   openDescription: (id) => (state) => {
