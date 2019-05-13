@@ -8,10 +8,11 @@
       "name": "Léo DRAGUY",
       "job": "Président",
       "subject": "IMAC",
-      "age": 22,
+      "age": "25",
       "description": "Excellent dessinateur menant l'association d'une main de fer (mais il est cool et passionné).",
       "drawingTechnique": "Traditionnelle et tablette",
-      "publicationNb": 2
+      "displayFullProfile": false,
+      "displayPopUp": false
     },
     {
       "id": 1,
@@ -37,51 +38,19 @@
   ],
   "members": [
     {
-      "id": 0,
-      "name": "Danyka BELLOT",
-      "job": "BDéiste",
-      "subject": "Génie civil",
-      "age": 21,
-      "description": "Dessinant plus vite que son ombre, elle peut vous sortir le croquis de 10 planches de BD par heure, et encore plus si vous lui apportez un paquet de bonbon.",
-      "drawingTechnique": "traditionnelle",
-      "publicationNb": 2,
-      "year": 2018,
-      "action": {
-        "displayFullProfile": false
-      }
-    },
-    {
-      "id": 1,
-      "name": "Tony STARK",
-      "job": "Illustrateur",
-      "subject": "Génie civil",
-      "age": 22,
-      "description": "Doté d'une imagination débordante, il adore créer des personnages de tous univers, avec une préférence pour le cyberpunk et tout ce qui est futuriste.",
-      "drawingTechnique": "traditionnelle et digitale",
-      "publicationNb": 4,
-      "year": 2019
-    },
-    {
-      "id": 2,
-      "name": "Bradley DUONG",
-      "job": "Illustrateur",
-      "subject": "Licence cinéma et audiovisuel",
-      "age": 21,
-      "description": "Membre spécialisé dans le dessin de paysages, en particulier de grandes villes au style futuriste. Il réalise ses croquis en technique tradtionnelle avant de toute passer sur ordinateur pour le line et la couleur.",
-      "drawingTechnique": "traditionnelle et digitale",
-      "publicationNb": 5,
-      "year": 2018
-    },
-    {
       "id": 3,
-      "name": "Izuku MIDORIYA",
+      "name": "Izuku MIDO",
       "job": "Chargé de communication",
       "subject": "Licence de communication",
-      "age": 23,
+      "age": "25",
       "description": "Il s'occupe des réseaux sociaux de Graphite, de la diffusion des événements et coordonne les membres en charge de la création des affiches et flyers.",
       "drawingTechnique": "digitale",
-      "publicationNb": 1,
-      "year": 2017
+      "year": 2017,
+      "action": {
+        "displayFullProfile": false
+      },
+      "displayFullProfile": false,
+      "displayPopUp": false
     },
     {
       "id": 4,
@@ -92,7 +61,10 @@
       "description": "Dotée d'un grand sens esthétique, elle réalise les affiches et flyers pour la communication de l'association sous la direction d'Izuku.",
       "drawingTechnique": "digitale",
       "publicationNb": 4,
-      "year": 2017
+      "year": 2017,
+      "action": {
+        "displayFullProfile": false
+      }
     },
     {
       "id": 5,
@@ -103,7 +75,10 @@
       "description": "Dessinateur expérimenté ayant déjà travaillé sur plusieurs fanzines, il enseigne ses techniques secrètes aux dessinateurs en herbe.",
       "drawingTechnique": "traditionnelle",
       "publicationNb": 3,
-      "year": 2017
+      "year": 2017,
+      "action": {
+        "displayFullProfile": false
+      }
     },
     {
       "id": 6,
@@ -114,7 +89,10 @@
       "description": "Spécialisée dans le speed painting, elle réalise les bannières pour les événements ainsi que l'illustration de certains posts pour les réseaux sociaux.",
       "drawingTechnique": "traditionnelle et digitale",
       "publicationNb": 3,
-      "year": 2018
+      "year": 2018,
+      "action": {
+        "displayFullProfile": false
+      }
     },
     {
       "id": 7,
@@ -125,7 +103,10 @@
       "description": "Dessinatrice en herbe cherchant à améliorer sa technique pour dessiner l'anatomie (en particulier les mains). Elle adore dessiner tout ce qui touche à l'heroic fantasy.",
       "drawingTechnique": "traditionnelle",
       "publicationNb": 4,
-      "year": 2019
+      "year": 2019,
+      "action": {
+        "displayFullProfile": false
+      }
     },
     {
       "id": 8,
@@ -136,18 +117,10 @@
       "description": "Membre le plus expérimenté ayant déjà collaboré sur des fanzines dans plusieurs associations, il est bon aussi bien pour dessiner des personnages que des décors ou encore des animaux.",
       "drawingTechnique": "traditionnelle et digitale",
       "publicationNb": 4,
-      "year": 2017
-    },
-    {
-      "id": 9,
-      "name": "Xander LOMNICKI",
-      "job": "BDéiste",
-      "subject": "Génie mécanique",
-      "age": 21,
-      "description": "Doué pour dessiner des personnages, il cherche à améliorer ses techniques de colorisation ainsi qu'à maîtriser l'ombre et la lumière.",
-      "drawingTechnique": "digitale",
-      "publicationNb": 3,
-      "year": 2018
+      "year": 2017,
+      "action": {
+        "displayFullProfile": false
+      }
     },
     {
       "id": 10,
@@ -158,7 +131,10 @@
       "description": "id commodi velit",
       "drawingTechnique": "traditionnelle",
       "publicationNb": 5,
-      "year": 2018
+      "year": 2018,
+      "action": {
+        "displayFullProfile": false
+      }
     },
     {
       "id": 11,
@@ -169,7 +145,10 @@
       "description": "saepe",
       "drawingTechnique": "traditionnelle",
       "publicationNb": 2,
-      "year": 2019
+      "year": 2019,
+      "action": {
+        "displayFullProfile": false
+      }
     },
     {
       "id": 12,
@@ -180,7 +159,10 @@
       "description": "Son style de dessin authentique et son sens de l'humour créent des affiches et des flyers décalés. Elle réalise également des affiches et des flyers sous la direction d'Izuku.",
       "drawingTechnique": "digitale",
       "publicationNb": 4,
-      "year": 2018
+      "year": 2018,
+      "action": {
+        "displayFullProfile": false
+      }
     },
     {
       "id": 13,
@@ -191,7 +173,10 @@
       "description": "Passionné par Gundam, Goldorak et Code Geass, il adore dessiner des machines et des mechas avec un sens du détail surprenant.",
       "drawingTechnique": "traditionnelle et digitale",
       "publicationNb": 4,
-      "year": 2017
+      "year": 2017,
+      "action": {
+        "displayFullProfile": false
+      }
     },
     {
       "id": 14,
@@ -202,7 +187,10 @@
       "description": "Besoin d'une info ? Passez par lui ! Il sait tout de l'association, tout des événements, tout des ateliers et tout des membres (ou presque).",
       "drawingTechnique": "J'écris mieux que je ne dessine (#Murl)",
       "publicationNb": 5,
-      "year": 2017
+      "year": 2017,
+      "action": {
+        "displayFullProfile": false
+      }
     },
     {
       "id": 15,
@@ -213,7 +201,10 @@
       "description": "Son passe temps favori : gribouiller sur ses cahiers pendant les cours. Mais il est temps de passer aux choses sérieuses et de faire des dessins de plus grandes envergures !",
       "drawingTechnique": "traditionnelle",
       "publicationNb": 2,
-      "year": 2019
+      "year": 2019,
+      "action": {
+        "displayFullProfile": false
+      }
     },
     {
       "id": 16,
@@ -224,7 +215,10 @@
       "description": "Il a les bases aussi bien pour l'anatomie que pour les décors. Il cherche à améliorer sa technique et à s'initier à la colorisation pour réaliser des BDs.",
       "drawingTechnique": "digitale",
       "publicationNb": 4,
-      "year": 2018
+      "year": 2018,
+      "action": {
+        "displayFullProfile": false
+      }
     },
     {
       "id": 17,
@@ -235,7 +229,10 @@
       "description": "Ayant débuté le dessin il y a peu, elle cherche à renforcer ses bases en dessin avant de tenter des choses plus complexes. Elle a un goût très prononcé pour les looks un peu extravagants et flashy.",
       "drawingTechnique": "traditionnelle",
       "publicationNb": 4,
-      "year": 2019
+      "year": 2019,
+      "action": {
+        "displayFullProfile": false
+      }
     },
     {
       "id": 18,
@@ -246,7 +243,10 @@
       "description": "Passionné d'heroic fantasy, il adore créer des personnages en armure et toutes sortes d'armes (épée, lance, arc...).",
       "drawingTechnique": "traditionnelle et digitale",
       "publicationNb": 3,
-      "year": 2019
+      "year": 2019,
+      "action": {
+        "displayFullProfile": false
+      }
     },
     {
       "id": 19,
@@ -257,18 +257,10 @@
       "description": "Il adore créer de petites BD (yonkomas) pour raconter son quotidien. Il est très doué pour dessiner les personnages en version chibi mais il aimerait également s'améliorer avec une anatomie 'normale'.",
       "drawingTechnique": "tablette",
       "publicationNb": 1,
-      "year": 2017
-    },
-    {
-      "id": 20,
-      "name": "Raleigh PARKER",
-      "job": "Illustrateur",
-      "subject": "IMAC",
-      "age": 23,
-      "description": "Ne jurant que par son crayon gris, il peut passer des heures à dessiner sans s'arrêter. Il souhaiterait apprendre à dessiner des décors ainsi que des véhicules comme des voitures.",
-      "drawingTechnique": "tradtionnelle",
-      "publicationNb": 4,
-      "year": 2018
+      "year": 2017,
+      "action": {
+        "displayFullProfile": false
+      }
     }
   ],
   "events": [
@@ -533,6 +525,16 @@
       "img": "",
       "displayPopUp": false,
       "displayEditPopUp": false
+    },
+    {
+      "date": "2019-5-13",
+      "fullDescription": "",
+      "id": 10
+    },
+    {
+      "date": "2019-5-13",
+      "fullDescription": "",
+      "id": 11
     }
   ],
   "fanzines": [
@@ -579,6 +581,12 @@
       "evenement": false,
       "atelier": false,
       "autre": false
+    },
+    "members": {
+      "displayPopUp": false
+    },
+    "team": {
+      "displayPopUp": false
     }
   }
 }

@@ -1,18 +1,25 @@
 import { h } from 'hyperapp'
+import membersPopUp from './membersPopUp'
+import teamPopUp from './teamPopUp'
 
 import memberList from './memberlist'
+import teamList from './teamlist'
 
-export default (state) => {
+export default (state, action) => {
   return (
-    <div class="all_members">
-      <div class="team category">
-        <h2>La team</h2>
-        {memberList(state.team)}
+    <div>
+      <div class='all_members'>
+        <div class='team category'>
+          <h2> La team <button onclick={() => action.addTeamPopUp()}> + </button> </h2>
+          {teamList(state.team, action)}
+        </div>
+        <div class='members category'>
+          <h2>Les super membres <button onclick={ () => action.addMemberPopUp()}> + </button> </h2>
+          {memberList(state.members, action)}
+        </div>
       </div>
-      <div class="members category">
-        <h2>Les super membres</h2>
-        {memberList(state.members)}
-      </div>
+      {membersPopUp(state.userAction.members.displayPopUp, action)}
+      {teamPopUp(state.userAction.team.displayPopUp, action)}
     </div>
   )
 }
