@@ -3,6 +3,6 @@ import newsCard from './newsCard'
 
 export default (props) => {
   return (
-    props.map(i => newsCard(i))
+    props.slice(0, 3).map(i => newsCard(i))
   )
 }

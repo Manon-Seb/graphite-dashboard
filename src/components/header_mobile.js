@@ -10,7 +10,6 @@ export default () => {
               <li>Dashboard</li>
               <li>Les membres</li>
               <li>Les news</li>
-              <li>Dernières publications</li>
             </ul>
           </li>
         </ul>

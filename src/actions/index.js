@@ -20,6 +20,35 @@ const addData = (url, object) => {
 
 export default {
 
+  addNewsPopUp: () => (state) => {
+    return {...state, userAction: {...state.userAction, news: {...state.userAction.news, displayPopUp: !state.userAction.news.displayPopUp}}}
+  },
+
+  addNews: () => (state) => {
+    const today = new Date()
+    const newNews = {
+      name: state.userAction.news.newsName,
+      date: String(today.getFullYear() + '-' + String(today.getMonth() + 1) + '-' + String(today.getDate())),
+      category: state.userAction.news.newsCategory,
+      description: state.userAction.news.newsDescription,
+      fullDescription: '',
+      img: state.userAction.news.newsImage
+    }
+    addData('http://localhost:8080/news', newNews)
+    const newArray = [...state.news].concat([newNews])
+    // addData('http://localhost:8080/tasks', newTask)
+    return {...state,
+      news: newArray,
+      userAction: {
+        ...state.userAction,
+        news: {
+          ...state.userAction.news,
+          displayPopUp: false
+        }
+      }
+    }
+  },
+
   addTask: () => (state) => {
     const newTask = {
       idMember: 0,
@@ -38,6 +67,26 @@ export default {
     // addData('http://localhost:8080/tasks', newTask)
     return {...state,
       tasks: newArray
+    }
+  },
+
+  changeNews: (id) => (state) => {
+    const newsId = state.news.findIndex(i => i.id === id)
+    const changedNews = {
+      ...state.news[newsId],
+      name: state.userAction.news.newsName,
+      category: state.userAction.news.newsCategory,
+      description: state.userAction.news.newsDescription,
+      img: state.userAction.news.newsImage,
+      displayEditPopUp: false,
+      displayPopUp: false
+    }
+    changeData('http://localhost:8080/news/' + id, changedNews)
+    const newsArray = state.tasks.slice(0, newsId)
+      .concat([changedNews])
+      .concat(state.tasks.slice(newsId + 1, state.news.length))
+    return {...state,
+      news: newsArray
     }
   },
 
@@ -79,6 +128,119 @@ export default {
     if (nb === 1) return {...state, userAction: {...state.userAction, task: {...state.userAction.task, fanzine: !state.userAction.task.fanzine}}}
     if (nb === 2) return {...state, userAction: {...state.userAction, task: {...state.userAction.task, communication: !state.userAction.task.communication}}}
     if (nb === 3) return {...state, userAction: {...state.userAction, task: {...state.userAction.task, reunion: !state.userAction.task.reunion}}}
+  },
+
+  newsDelete: (id) => (state) => {
+    const newsId = state.news.findIndex(i => i.id === id)
+    const newsArray = state.news.slice(0, newsId)
+      .concat(state.news.slice(newsId + 1, state.news.length))
+    deleteData('http://localhost:8080/news/' + id)
+    return {...state,
+      news: newsArray
+    }
+  },
+
+  newsOpenEdit: (id) => (state) => {
+    const newsId = state.news.findIndex(i => i.id === id)
+    const changedNews = {
+      ...state.news[newsId],
+      displayEditPopUp: true
+    }
+    const saveData = {
+      ...state.userAction.news,
+      newsName: state.news[newsId].name,
+      newsImage: state.news[newsId].img,
+      newsDescription: state.news[newsId].description,
+      newsCategory: state.news[newsId].category
+    }
+    const newsArray = state.news.slice(0, newsId)
+      .concat([changedNews])
+      .concat(state.news.slice(newsId + 1, state.news.length))
+    return {...state,
+      news: newsArray,
+      userAction: {
+        ...state.userAction,
+        news: saveData
+      }
+    }
+  },
+
+  newsCloseEdit: (id) => (state) => {
+    const newsId = state.news.findIndex(i => i.id === id)
+    const changedNews = {
+      ...state.news[newsId],
+      displayEditPopUp: false
+    }
+    const newsArray = state.news.slice(0, newsId)
+      .concat([changedNews])
+      .concat(state.news.slice(newsId + 1, state.news.length))
+    return {...state,
+      news: newsArray
+    }
+  },
+
+  newsHoverIn: (id) => (state) => {
+    const newsId = state.news.findIndex(i => i.id === id)
+    const changedNews = {
+      ...state.news[newsId],
+      displayPopUp: true
+    }
+    const newsArray = state.news.slice(0, newsId)
+      .concat([changedNews])
+      .concat(state.news.slice(newsId + 1, state.news.length))
+    return {...state,
+      news: newsArray
+    }
+  },
+
+  newsHoverOut: (id) => (state) => {
+    const newsId = state.news.findIndex(i => i.id === id)
+    const changedNews = {
+      ...state.news[newsId],
+      displayPopUp: false
+    }
+    const newsArray = state.news.slice(0, newsId)
+      .concat([changedNews])
+      .concat(state.news.slice(newsId + 1, state.news.length))
+    return {...state,
+      news: newsArray
+    }
+  },
+
+  newsName: (string) => (state) => {
+    return {...state, userAction: {...state.userAction, news: {...state.userAction.news, newsName: string}}}
+  },
+
+  newsImage: (string) => (state) => {
+    return {
+      ...state,
+      userAction: {
+        ...state.userAction,
+        news: {
+          ...state.userAction.news,
+          newsImage: string
+        }
+      }
+    }
+  },
+
+  newsCategory: () => (state) => {
+    const element = document.getElementById('NewsEditcategorie').selectedIndex
+    const value = document.getElementById('NewsEditcategorie').options[element].value
+    return {...state, userAction: {...state.userAction, news: {...state.userAction.news, newsCategory: value}}}
+  },
+
+  newsDescription: (string) => (state) => {
+    return {
+      ...state,
+      userAction: {
+        ...state.userAction,
+        news: {
+          ...state.userAction.news,
+          newsDescription: string
+        }
+      }
+    }
   },
 
   openDescription: (id) => (state) => {

@@ -45,7 +45,10 @@ button {
   padding: 0 1rem;
   border: none;
   font-size: 2rem;
-  height: 3rem;
+  height: auto;
+}
+button:hover{
+  cursor: pointer;
 }
 
 h1 {

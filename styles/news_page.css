@@ -61,6 +61,56 @@
 .all_news .news_infos p{
   padding: 0 20px;
 }
+.news_infos:first-child{
+  position: relative;
+  background-image: url(../asset/img/add_news.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.news_infos:first-child button{
+  position: absolute;
+  top: 30%;
+  width: 90%;
+  margin: 0 5%;
+  padding: 10px 0;
+  border-radius: 20px;
+  border: 2px solid #FFF;
+  background-color: orange;
+  color: #FFF;
+}
+.news_infos:first-child button:hover{
+  background-color: #FFF;
+  color: orange;
+  border-color: orange;
+  -moz-animation : change_button_color 0.5s;
+  -webkit-animation: change_button_color 0.5s;
+  animation: change_button_color 0.5s;
+}
+.buttons_news{
+  width: 100%;
+  text-align: center;
+  margin: 30px 0;
+}
+.buttons_news button{
+  display: inline-block;
+  width: 40%;
+  background-color: #FFF;
+}
+.buttons_news img{
+  width: 90%;
+}
+.add_news .popUp__form, .modify_news .popUp__form{
+  width: 50%;
+  margin-left: -20%;
+  margin-top: -25%;
+}
+.add_news .popUp__container, .modify_news .popUp__container{
+  text-align: center;
+}
+.add_news .popUp__Add, .modify_news .popUp__Add{
+  padding: 5px;
+}
 
 /******* RESPONSIVE *******/
 
@@ -80,10 +130,14 @@
   .news_categories button{
     width: 100%;
     margin: 0;
+    padding: 10px 0;
     border-bottom: 1px solid #E2E2E2;
   }
   .all_news .news_infos{
     width: 100%;
+  }
+  .news_infos:first-child{
+    height: 500px;
   }
 }
 
@@ -95,5 +149,18 @@
   }
   100%{
     color: #DC7D2F;
+  }
+}
+
+@keyframes change_button_color{
+  0%{
+    color: #FFF;
+    background-color: orange;
+    border-color: #FFF;
+  }
+  100%{
+    color: orange;
+    background-color: #FFF;
+    border-color: orange;
   }
 }

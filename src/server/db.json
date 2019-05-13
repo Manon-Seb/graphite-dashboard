@@ -451,12 +451,14 @@
   "news": [
     {
       "id": 0,
-      "name": "Recrutement équipe 2020",
+      "name": "Recrutement équipe 2019",
       "date": "2019-05-01",
-      "category": "équipe",
-      "description": "Graphite recherche de nouveaux dessinateurs pour intégrer l'équipe de 2020 ! Séances créatives, bonne humeur et partage sont au rendez-vous !",
       "fullDescription": "Comme chaque année, des membres nous quittent pour de nouveaux horizons mais nous, nous ne nous arrêtons pas ! C'est pourquoi Graphite fait appel à vous ! Nous recrutons de nouveaux dessinateurs, débutant ou confirmé, peu importe votre technique de dessins. Les possibilités de posts et d'activités sont nombreuses : senpai, kohai, graphiste pour la communication de l'association, organisation d'atelier... Il y a de quoi libérer le dessinateur qui sommeille en vous ! Si vous êtes intéressés, vous pouvez nous envoyer un mail ou venir directement à notre local situé dans le bâtiment Copernic.",
-      "img": "../../img/staff.jpg"
+      "displayEditPopUp": false,
+      "displayPopUp": false,
+      "description": "Il est grand temps d'accueillir une nouvelle équipe",
+      "img": "\"../../img/fire_emblem.jpg\"",
+      "category": "équipe"
     },
     {
       "id": 1,
@@ -504,21 +506,12 @@
       "img": "../../img/character_design.jpg"
     },
     {
-      "id": 6,
-      "name": "Graphite vous souhaite un joyeux réveillon !",
-      "date": "2018-12-31",
-      "category": "autre",
-      "description": "labore",
-      "fullDescription": "2018 s'achève et 2019 arrive à grands pas. Quelles sont résolutions pour la nouvelle année qui s'annonce ?",
-      "img": "../../img/fire_emblem.jpg"
-    },
-    {
       "id": 7,
       "name": "Joyeuses fêtes !",
       "date": "2018-12-18",
       "category": "autre",
-      "description": "dolore et voluptatum praesentium",
-      "fullDescription": "Les vacances sont enfin là !",
+      "description": "Toute l'équipe de Graphite vous souhaite à tous de joyeuses fêtes de fin d'année !",
+      "fullDescription": "Les vacances sont enfin là ! Entre Noël et la nouvelle année, vous allez sans doute bien vous remplir le ventre et vous reposer (ou pas).",
       "img": "../../img/fire_emblem.jpg"
     },
     {
@@ -526,56 +519,49 @@
       "name": "Concours de dessin spécial Noël",
       "date": "2018-12-01",
       "category": "événement",
-      "description": "ducimus quidem",
-      "fullDescription": "Pour la première fois, Graphite vous propose un concours de dessin !",
+      "description": "Oh oh oh ! Noël approche doucement alors pour fêter ça, nous organisons un concours !",
+      "fullDescription": "Pour la première fois, Graphite vous propose un concours de dessin ! Le thème (de saison) : Noël. Père Noël, sapins, neige, bonhomme de neige, petits lutins... tant que votre dessin est festif, tout le monde peut participer !",
       "img": "../../img/fire_emblem.jpg"
     },
     {
       "id": 9,
-      "name": "tempore recusandae expedita deleniti",
+      "name": "Atelier : Création d'univers",
       "date": "2018-10-31",
-      "category": "autre",
-      "description": "et voluptate consequatur itaque",
-      "fullDescription": "et voluptate consequatur itaque",
-      "img": "../../img/fire_emblem.jpg"
-    },
-    {
-      "id": 10,
-      "name": "quae unde qui amet",
-      "date": "2018-10-22",
-      "category": "équipe",
-      "description": "cupiditate ullam",
-      "fullDescription": "et voluptate consequatur itaque",
-      "img": "../../img/fire_emblem.jpg"
+      "category": "atelier",
+      "description": "Viens découvrir les base de la création d'univers avec un membre de l'équipe graphite qui sera prêt à tout pour vous aider sur ce chemin qui peut être laborieux",
+      "fullDescription": "Toute BD, tout personnage, toute histoire est entouré d'un univers. Que vous soyez orienté science-fiction, fantasie ou monde actuel, apprenez à élaborer un background cohérent et riche dans lequel vos héros évolueront.",
+      "img": "../../img/castle.jpg",
+      "displayPopUp": false,
+      "displayEditPopUp": false
     }
   ],
   "fanzines": [
-  	{
-  	  "year": 2018,
-  	  "nbBD": 7,
-  	  "nbIllustration": 10,
-  	  "guest": 18,
-  	  "vente": 24
-  	},
-  	{
-  	  "year": 2019,
-  	  "nbBD": 6,
-  	  "nbIllustration": 9,
-  	  "guest": 13,
-  	  "vente": 43
-  	},
-  	{
-  	  "year": 2020,
-  	  "nbBD": 6,
-  	  "nbIllustration": 6,
-  	  "guest": 19
-  	},
-  	{
-  	  "year": 2021,
-  	  "nbBD": 6,
-  	  "nbIllustration": 8,
-  	  "guest": 17
-  	}
+    {
+      "year": 2018,
+      "nbBD": 7,
+      "nbIllustration": 10,
+      "guest": 18,
+      "vente": 24
+    },
+    {
+      "year": 2019,
+      "nbBD": 6,
+      "nbIllustration": 9,
+      "guest": 13,
+      "vente": 43
+    },
+    {
+      "year": 2020,
+      "nbBD": 6,
+      "nbIllustration": 6,
+      "guest": 19
+    },
+    {
+      "year": 2021,
+      "nbBD": 6,
+      "nbIllustration": 8,
+      "guest": 17
+    }
   ],
   "userAction": {
     "task": {
@@ -596,4 +582,3 @@
     }
   }
 }
-
