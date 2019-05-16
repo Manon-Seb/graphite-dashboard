@@ -42,7 +42,7 @@ section > *+* {
 }
 
 button {
-  padding: 0 1rem;
+  padding: 10px 1rem;
   border: none;
   font-size: 2rem;
   height: auto;
@@ -314,7 +314,7 @@ li{
 .team .profiles button, .news button, .all_members button{
   display: block;
   margin: 0 auto;
-  padding: 5px 20px;
+  padding: 10px 20px;
   border-radius: 20px;
   border: 1px solid #fff;
   background-color: #DC7D2F;
@@ -502,16 +502,17 @@ li{
 
 .popUp label {
   font-size: 1rem;
+  margin-bottom: 5px;
 }
 
-.popUp__form {
+.popUp__form, .popup__add--members {
   background-color: white;
-  width: 30%;
+  width: 50%;
   position: fixed;
   left: 50%;
-  margin-left: -15%;
+  margin-left: -20%;
   top: 50%;
-  margin-top: -20%;
+  margin-top: -25%;
 }
 
 .popUp__label {
@@ -520,14 +521,15 @@ li{
 
 .popUp__container {
     width: 100%;
+    text-align: center;
 }
 
 .popUp__Add {
   margin-top: 3%;
+  padding: 5px;
   width: 40%;
   background-color: orange;
   border-radius: 25px;
-
   font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 1rem;

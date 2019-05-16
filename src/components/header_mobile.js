@@ -16,7 +16,6 @@ export default () => {
       </nav>
 
       <img src="../../img/profile_pic_1.jpg" width="500" height="500" alt="profile pic"/>
-      <a href="./dashboard.js"></a>
     </header>
   )
 }

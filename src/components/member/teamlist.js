@@ -1,8 +1,8 @@
 import { h } from 'hyperapp'
-import memberCard from './memberCard'
+import teamCard from './teamCard'
 
 export default (props, action) => {
   return (
-    props.map(i => memberCard(i, action))
+    props.map(i => teamCard(i, action))
   )
 }

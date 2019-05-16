@@ -3,7 +3,7 @@ import { app } from 'hyperapp'
 
 import actions from './actions'
 import state from './state'
-import view from './components/views/news_page.js'
+import view from './components/views/members_page.js'
 
 /*
 RAPPEL :

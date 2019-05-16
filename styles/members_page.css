@@ -1,4 +1,5 @@
 /****** MEMBERS PAGE ******/
+
 .members_page{
   position: absolute;
 }
@@ -7,8 +8,15 @@
   margin: 0 auto 20px auto;
 }
 .all_members button{
-  width: 60%;
+  width: 50%;
   margin-bottom: 20px;
+}
+.all_members .add_member{
+  width: auto;
+  padding: 5px 10px;
+  margin: 0 20px;
+  border-radius: 50%;
+  float: right;
 }
 .all_members h2{
   margin-bottom: 5px;
@@ -22,7 +30,10 @@
   margin: 0 auto 20px auto;
   text-align: justify;
 }
-.members_page .formation{
+.all_members .profile_pic{
+  width: 100%;
+}
+.members_page .formation, .popup__add--members h2{
   text-align: center;
 }
 .members_page .team, .members_page .members{
@@ -36,9 +47,52 @@
   background-color: #E2E2E2;
   margin-bottom: 5px;
 }
-.members_page .team div div, .members div div{
-  background-color: #E2E2E2;
-  padding-bottom: 20px;
+
+.members_page .team .hidden_profile_infos, .members_page .members .hidden_profile_infos, .members_page .team .container__horizontal, .members_page .members .container__horizontal{
+  width: 100%;
+  margin: 0;
+}
+.hidden_profile_infos button:first-child, .hidden_profile_infos button:nth-child(2){
+  background-color: transparent;
+  border: none;
+  display: inline-block;
+  width: 30%;
+}
+.hidden_profile_infos button:first-child:hover, .hidden_profile_infos button:nth-child(2):hover{
+  background-color: transparent;
+  border: none;
+  -moz-animation : none;
+  -webkit-animation: none;
+  animation: none;
+}
+.all_members .popUp__form, .popup__add--members{
+  height: 80%;
+  overflow: scroll;
+  word-wrap: break-word;
+}
+.all_members .popUp__form .container__horizontal .container__vertical,
+.popup__add--members .container__horizontal .container__vertical{
+  width: 45%;
+}
+.popUp__form--members button{
+  width: 30%;
+  margin-top: 20px;
+}
+.popUp__form--members button:first-child{
+    background-color: orange;
+}
+.popup__add--members .container__horizontal:last-child{
+  width: 60%;
+  margin: 0 auto;
+}
+.popup__add--members button{
+  width: 50%;
+}
+.members_page .popUp__form select{
+  padding: 10px;
+}
+.choose_category{
+  margin: 0 auto;
 }
 
 /****** RESPONSIVE ******/
@@ -46,10 +100,73 @@
   .members_page .team > div, .members > div{
     width: 49.5%;
   }
+  .popUp__form--members{
+    margin-top: -50%;
+  }
+  .all_members .popUp__form .container__horizontal .container__vertical,
+  .popup__add--members .container__horizontal .container__vertical{
+    display: inline-block;
+    width: 40%;
+  }
+  .all_members .popUp__form .container__horizontal .container__vertical label,
+  .popup__add--members label{
+      margin-bottom: 5px;
+  }
+  .popUp__form--members button, .popup__add--members button{
+      display: inline-block;
+      margin: 20px 10px;
+  }
+  .popup__add--members{
+    width: 80%;
+    margin-left: -40%;
+  }
+  .popup__add--members .container__horizontal:last-child{
+    width: 90%;
+  }
+  .popup__add--members .container__horizontal .choose_technique{
+    width: 100%;
+    text-align: center;
+  }
+  .popup__add--members .container__vertical:last-child label{
+    display: block;
+  }
+  .popup__add--members .container__vertical:last-child select{
+    width: 60%;
+  }
+  .popup__add--members button{
+    width: 40%;
+  }
 }
 
 @media screen and (max-width: 767px){
   .members_page .team > div, .members > div{
     width: 100%;
+  }
+  .all_members .popUp__form .container__horizontal .container__vertical, .all_members .container__vertical, .popup__add--members .container__horizontal .container__vertical,
+  .popup__add--members .container__vertical{
+      display: block;
+      width: 90%;
+      margin: 15px 5%;
+  }
+  .popUp__form--members{
+    margin-top: -65%;
+  }
+  .popUp__form--members button, .popup__add--members button{
+    width: 80%;
+    margin-top: 20px;
+  }
+  .popUp__form--members label{
+    display: block;
+  }
+  .popUp__form--members select, .popup__add--members select{
+    width: 100%;
+    padding: 10px;
+  }
+  .popup__add--members{
+    width: 90%;
+    margin-left: -45%;
+  }
+  .popup__add--members .container__horizontal:last-child{
+    width: 90%;
   }
 }
